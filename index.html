@@ -10,6 +10,11 @@
      |   • Linkedin:   www.github.com/arthurfms        |
      |_________________________________________________|
   -->
+
+  <!--
+  Create a JSON handler to add the website information making JS queries to add into it
+  Each section will need specific IDs to be indeitified by the JS, and make queries clean
+  -->
   <head>
     <meta name="author" content="Arthur Fernandes" />
     <meta charset="UTF-8" />
@@ -35,15 +40,21 @@
     </script>
   </head>
   <body class="page">
+    <div class="page-background" id="particles-js">
+      <script
+        type="text/javascript"
+        src="./scripts/particles/particles.js"></script>
+      <script type="text/javascript" src="./scripts/particles/app.js"></script>
+    </div>
     <header class="header">
+      <div class="menu-handler">
+        <span class="menu-handler__line"></span>
+        <span class="menu-handler__line"></span>
+      </div>
       <nav class="menu">
-        <div class="menu-handler">
-          <span class="menu-handler__line"></span>
-          <span class="menu-handler__line"></span>
-        </div>
         <ul class="menu-items">
           <p class="menu-item__title">Menu</p>
-          <li class="menu-item">
+          <li class="menu-item menu-item_active">
             <a href="#" class="menu-item__link">
               <i class="fa-regular fa-user"></i>About Me
             </a>
@@ -115,8 +126,27 @@
             front-end development, APIs, data analysis, data manipulation and
             customer support (Tier 2).
           </h4>
+          <ul class="header-details json-identifier">
+            <li class="header-detail">
+              <p class="header-detail__title">Country:</p>
+              <p class="header-detail__content">Brazil</p>
+            </li>
+            <li class="header-detail">
+              <p class="header-detail__title">Age:</p>
+              <p class="header-detail__content">31</p>
+            </li>
+            <li class="header-detail">
+              <p class="header-detail__title">Phone:</p>
+              <p class="header-detail__content">+55 11 97107-1806</p>
+            </li>
+            <li class="header-detail">
+              <p class="header-detail__title">Email:</p>
+              <p class="header-detail__content">a.fms@hotmail.com</p>
+            </li>
+          </ul>
         </div>
       </div>
     </header>
+    <section class="section" id="about"></section>
   </body>
 </html>
