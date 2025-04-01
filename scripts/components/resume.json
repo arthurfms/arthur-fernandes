@@ -471,63 +471,33 @@
     },
     {
       "name": {
-        "en": "",
-        "es": "",
-        "pt": ""
+        "en": "Resume Template Website",
+        "es": "Template de Website CV",
+        "pt": "Templade de Website CV"
       },
       "description": {
-        "en": "",
-        "es": "",
-        "pt": ""
+        "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
+        "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
+        "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
       },
-      "image": "",
-      "skills": ["", "", "", ""],
-      "link": ""
+      "image": "./images/portfolio-template.png",
+      "skills": ["JavaScript", "CSS", "HTML"],
+      "link": "https://arthurfms.github.io/resume/"
     },
     {
       "name": {
-        "en": "",
-        "es": "",
-        "pt": ""
+        "en": "Practicum Bootcamp Project",
+        "es": "Proyecto del Bootcamp de Practicum",
+        "pt": "Projeto do Bootcamp da Practicum"
       },
       "description": {
-        "en": "",
-        "es": "",
-        "pt": ""
+        "en": "A social media simulator, where the user can change name or job position, and add new image post. This website uses API to send and retrieve information from a server.",
+        "es": "Website que simula una red social, dónde el usuário puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
+        "pt": "Webiste que simula uma rede social, onde o usuário pode atualizar seu nome ou posto de trabalho, também é possível adicionar publicações de imagens. Este site utiliza API para enviar e receber informações do servidor."
       },
-      "image": "",
-      "skills": ["", "", "", ""],
-      "link": ""
-    },
-    {
-      "name": {
-        "en": "",
-        "es": "",
-        "pt": ""
-      },
-      "description": {
-        "en": "",
-        "es": "",
-        "pt": ""
-      },
-      "image": "",
-      "skills": ["", "", "", ""],
-      "link": ""
-    },
-    {
-      "name": {
-        "en": "",
-        "es": "",
-        "pt": ""
-      },
-      "description": {
-        "en": "",
-        "es": "",
-        "pt": ""
-      },
-      "image": "",
-      "skills": ["", "", "", ""],
-      "link": ""
+      "image": "./images/practicum%20-%203.png",
+      "skills": ["API", "JavaScript", "CSS", "HTML"],
+      "link": "https://arthurfms.github.io/web_project_4/"
     }
   ]
 }
