@@ -1,338 +1,472 @@
 {
   "menu": {
-    "title": "Menu",
-    "links": {
-      "en": [
-        "About Me",
-        "Work Experience",
-        "Education",
-        "Skills",
-        "Languages",
-        "projects",
-        "Contact"
-      ],
-      "es": [
-        "Sobre",
-        "Experiencia",
-        "Estúdios",
-        "Habilidades",
-        "Idiomas",
-        "proyectos",
-        "Contacto"
-      ],
-      "pt": [
-        "Sobre Mim",
-        "Experiência",
-        "Educação",
-        "Habilidades",
-        "Idiomas",
-        "Projetos",
-        "Contato"
-      ]
-    }
+    "sectionId": "menu",
+    "items": [
+      {
+        "content": {
+          "en": "About Me",
+          "es": "Sobre",
+          "pt": "Sobre Mim"
+        },
+        "placeholder": "menu-item-about_ph"
+      },
+      {
+        "content": {
+          "en": "Work Experience",
+          "es": "Experiencia",
+          "pt": "Experiência"
+        },
+        "placeholder": "menu-item-work_ph"
+      },
+      {
+        "content": {
+          "en": "Education",
+          "es": "Estúdios",
+          "pt": "Educação"
+        },
+        "placeholder": "menu-item-education_ph"
+      },
+      {
+        "content": {
+          "en": "Skills",
+          "es": "Habilidades",
+          "pt": "Habilidades"
+        },
+        "placeholder": "menu-item-skills_ph"
+      },
+      {
+        "content": {
+          "en": "Languages",
+          "es": "Idiomas",
+          "pt": "Idiomas"
+        },
+        "placeholder": "menu-item-languages_ph"
+      },
+      {
+        "content": {
+          "en": "Projects",
+          "es": "Proyectos",
+          "pt": "Projetos"
+        },
+        "placeholder": "menu-item-projects_ph"
+      },
+      {
+        "content": {
+          "en": "Contact",
+          "es": "Contacto",
+          "pt": "Contato"
+        },
+        "placeholder": "menu-item-contact_ph"
+      }
+    ]
   },
   "profile": {
-    "name": "Arthur Fernandes",
-    "dob": "1993-06-18",
-    "phone": "+55 11 97107-1806",
-    "email": "a.fms@hotmail.com",
-    "country": {
-      "en": "Brazil",
-      "es": "Brazil",
-      "pt": "Brasil"
+    "sectionId": "about",
+    "title": {
+      "content": {
+        "en": "About Me",
+        "es": "Sobre",
+        "pt": "Sobre Mim"
+      },
+      "placeholder": "header-title_ph"
     },
-    "description": {
-      "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCTLTech (UberEats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
-      "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCTLTech (UberEats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
-      "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCTLTech (UberEats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
-    },
+    "items": [
+      {
+        "content": { "en": "Age:", "es": "Edad:", "pt": "Idade:" },
+        "placeholder": "header-detail-title2_ph"
+      },
+      {
+        "content": "1993-06-18",
+        "placeholder": "header-detail-content2_ph"
+      },
+      {
+        "content": { "en": "Country:", "es": "País:", "pt": "País:" },
+        "placeholder": "header-detail-title1_ph"
+      },
+      {
+        "content": { "en": "Brazil", "es": "Brazil", "pt": "Brasil" },
+        "placeholder": "header-detail-content1_ph"
+      },
+      {
+        "content": {
+          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCTLTech (UberEats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
+          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCTLTech (UberEats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
+          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCTLTech (UberEats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
+        },
+        "placeholder": "header-description_ph"
+      },
+      {
+        "content": { "en": "Phone:", "es": "Tel:", "pt": "Tel:" },
+        "placeholder": "header-detail-title3_ph"
+      },
+      {
+        "content": { "en": "Email:", "es": "E-mail:", "pt": "E-mail:" },
+        "placeholder": "header-detail-title4_ph"
+      }
+    ],
     "image": {
-      "src": "./images/profile__image.jpg",
       "alt": {
         "en": "Arthur Fernandes profile image",
         "es": "Foto de perfil de Arthur Fernandes",
         "pt": "Foto de perfil de Arthur Fernandes"
-      }
+      },
+      "placeholder": "header-image_ph"
     }
   },
   "work": {
-    "session": {
-      "en": "Work Experience",
-      "es": "Experiencia laboral",
-      "pt": "Experiência"
+    "sectionId": "work",
+    "title": {
+      "content": {
+        "en": "Work Experience",
+        "es": "Experiencia laboral",
+        "pt": "Experiência"
+      },
+      "placeholder": ""
     },
     "items": [
       {
-        "initialDate": "03/2025",
         "endDate": {
-          "en": "Currently",
-          "es": "Actualmente",
-          "pt": "Atualmente"
+          "content": {
+            "en": "Currently",
+            "es": "Actualmente",
+            "pt": "Atualmente"
+          },
+          "placeholder": ""
         },
-        "company": "HCLTech (UberEats)",
         "region": {
-          "en": "Brazil, remote",
-          "es": "Brazil, remoto",
-          "pt": "Brasil, remoto"
+          "content": {
+            "en": "Brazil, remote",
+            "es": "Brazil, remoto",
+            "pt": "Brasil, remoto"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Tech Support Engineer T3",
-          "es": "Ingeniero de Soporte N3",
-          "pt": "Ingeniero de Soporte N3"
+          "content": {
+            "en": "Tech Support Engineer T3",
+            "es": "Ingeniero de Soporte N3",
+            "pt": "Ingeniero de Soporte N3"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Support UberEats clients (restaurants and developers) to get a proper integration between their software and Uber’s API. Manage developer’s accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
-            "Perform data analysis and checking different reports to confirm the UberEats process for each client, to identify and work on different integration issues."
-          ],
-          "es": [
-            "Dar soporte a clientes de UberEats (restaurantes y desarrolladores) para que las integraciones entre su software y la API de uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
-            "Hacer análisis de datos y verificar distintos reportes para confirmar las integraciones, identificando y trabajando en distintos tipos de errores."
-          ],
-          "pt": [
-            "Prestar suporte para clientes da UberEats (restaurantes e desenvolvedores), para que as integrações entre o software do cliente e a API do uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
-            "Realizar análise de dados e verificar diferentes relatórios para confirmar as integraçãos, identificando e trabalhando em diferentes tipos de erros."
-          ]
+          "content": {
+            "en": [
+              "Support UberEats clients (restaurants and developers) to get a proper integration between their software and Uber’s API. Manage developer’s accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
+              "Perform data analysis and checking different reports to confirm the UberEats process for each client, to identify and work on different integration issues."
+            ],
+            "es": [
+              "Dar soporte a clientes de UberEats (restaurantes y desarrolladores) para que las integraciones entre su software y la API de uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
+              "Hacer análisis de datos y verificar distintos reportes para confirmar las integraciones, identificando y trabajando en distintos tipos de errores."
+            ],
+            "pt": [
+              "Prestar suporte para clientes da UberEats (restaurantes e desenvolvedores), para que as integrações entre o software do cliente e a API do uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
+              "Realizar análise de dados e verificar diferentes relatórios para confirmar as integraçãos, identificando e trabalhando em diferentes tipos de erros."
+            ]
+          },
+          "placeholder": ""
         }
       },
       {
-        "initialDate": "02/2024",
-        "endDate": "03/2025",
-        "company": "AWIN Global",
         "region": {
-          "en": "Brazil, remote",
-          "es": "Brazil, remoto",
-          "pt": "Brasil, remoto"
+          "content": {
+            "en": "Brazil, remote",
+            "es": "Brazil, remoto",
+            "pt": "Brasil, remoto"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Global Integration Analyst",
-          "es": "Analista de Integraciones Global",
-          "pt": "Analista de Integrações Global"
+          "content": {
+            "en": "Global Integration Analyst",
+            "es": "Analista de Integraciones Global",
+            "pt": "Analista de Integrações Global"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Provide a high level of technical integration support for global clients, identifying technical issues and escalating to engineering team.",
-            "Work with technical issues to prompt solve it and guarantee the tracking solution for affiliate marketing clients."
-          ],
-          "es": [
-            "Dar soporte de nivel tecnico a las integraciones de clientes de distintos países, identificando errores y enviando bugs para el equipo de ingeniería.",
-            "Trabajar activamente en las integraciones en problemas técnicos y garantizar que la solución de marketing the afiliados esté correctamente hecha."
-          ],
-          "pt": [
-            "Dar suporte de nível técnico para integrações de clientes de diferentes países, identificando erros e escalando bugs para o time de engenharia.",
-            "Trabalhar nas integrações para resolver problemas técnicos e garantir que a solução de marketing de afiliados funcione corretamente."
-          ]
+          "content": {
+            "en": [
+              "Provide a high level of technical integration support for global clients, identifying technical issues and escalating to engineering team.",
+              "Work with technical issues to prompt solve it and guarantee the tracking solution for affiliate marketing clients."
+            ],
+            "es": [
+              "Dar soporte de nivel tecnico a las integraciones de clientes de distintos países, identificando errores y enviando bugs para el equipo de ingeniería.",
+              "Trabajar activamente en las integraciones en problemas técnicos y garantizar que la solución de marketing the afiliados esté correctamente hecha."
+            ],
+            "pt": [
+              "Dar suporte de nível técnico para integrações de clientes de diferentes países, identificando erros e escalando bugs para o time de engenharia.",
+              "Trabalhar nas integrações para resolver problemas técnicos e garantir que a solução de marketing de afiliados funcione corretamente."
+            ]
+          },
+          "placeholder": ""
         }
       },
       {
-        "initialDate": "09/2022",
-        "endDate": "01/2024",
-        "company": "InboundCycle",
         "region": {
-          "en": "Brazil, remote",
-          "es": "Brazil, remoto",
-          "pt": "Brasil, remoto"
+          "content": {
+            "en": "Brazil, remote",
+            "es": "Brazil, remoto",
+            "pt": "Brasil, remoto"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Frontend Developer",
-          "es": "Desarrollador Frontend",
-          "pt": "Desenvolvedor Frontend"
+          "content": {
+            "en": "Frontend Developer",
+            "es": "Desarrollador Frontend",
+            "pt": "Desenvolvedor Frontend"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Implement the frontend side for different projects, including full website, blogs, landing pages and emails. Maintain server, create reports and find solutions to different requests received from accounts teams and clients.",
-            "Analyse incidents, find bugs and work directly on the fix, keeping all projects properly working."
-          ],
-          "es": [
-            "Crear e implementar la interfaz de distintos proyectos, incluyendo websites, landing pages y templates de correos.",
-            "Mantener el servidor actualizado, crear reportes y encontrar soluciones para las solicitudes de clientes y otros equipos de la empresa. Encontrar y evaluar errores para trabajar directamente en las soluciones, manteniendo cada proyecto funcionando correctamente."
-          ],
-          "pt": [
-            "Criar e implementar as interfaces de diferentes projetos, incluindo sites completos, landing pages e templates de emails.",
-            "Manter o servidor, criar relatórios e encontrar soluções para as solicitações das equipes internas e clientes. Analisar incidentes, encontrar erros e trabalhar diretamente nas soluções, mantendo cada projeto funcionando da forma correta."
-          ]
+          "content": {
+            "en": [
+              "Implement the frontend side for different projects, including full website, blogs, landing pages and emails. Maintain server, create reports and find solutions to different requests received from accounts teams and clients.",
+              "Analyse incidents, find bugs and work directly on the fix, keeping all projects properly working."
+            ],
+            "es": [
+              "Crear e implementar la interfaz de distintos proyectos, incluyendo websites, landing pages y templates de correos.",
+              "Mantener el servidor actualizado, crear reportes y encontrar soluciones para las solicitudes de clientes y otros equipos de la empresa. Encontrar y evaluar errores para trabajar directamente en las soluciones, manteniendo cada proyecto funcionando correctamente."
+            ],
+            "pt": [
+              "Criar e implementar as interfaces de diferentes projetos, incluindo sites completos, landing pages e templates de emails.",
+              "Manter o servidor, criar relatórios e encontrar soluções para as solicitações das equipes internas e clientes. Analisar incidentes, encontrar erros e trabalhar diretamente nas soluções, mantendo cada projeto funcionando da forma correta."
+            ]
+          },
+          "placeholder": ""
         }
       },
       {
-        "initialDate": "09/2022",
-        "endDate": "01/2024",
-        "company": "Doctoralia España",
         "region": {
-          "en": "Barcelona, Spain",
-          "es": "Barcelona, España",
-          "pt": "Barcelona, Espanha"
+          "content": {
+            "en": "Barcelona, Spain",
+            "es": "Barcelona, España",
+            "pt": "Barcelona, Espanha"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Data Implementation Specialist",
-          "es": "Esp. de Implementación de datos",
-          "pt": "Esp. de Implementação de dados"
+          "content": {
+            "en": "Data Implementation Specialist",
+            "es": "Esp. de Implementación de datos",
+            "pt": "Esp. de Implementação de dados"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Management and manipulation of big databases to generate specific formats, necessaries to new clients implementations. Process organization and maintenance to guarantee data protection and information quality in company system.",
-            "Contacting with all involved teams, keeping the process flowing to ensure that every step works as the company standards, and training new import members."
-          ],
-          "es": [
-            "Gestionar y manipular bases con gran cantidad de datos para generar archivos de formato específicos, necesarios para implementación de nuevos clientes. Ordenación y mantenimiento de procesos garantizando la calidad de las informaciones en el sistema y la protección de datos.",
-            "Contacto con los equipos relacionados con los procedimientos y manutención del proceso para que todo salga conforme los estándares de la empresa y realizando entrenamiento de nuevos empleados del equipo."
-          ],
-          "pt": [
-            "Gerir e manipular bases com grande quantidade de dados para gerar arquivos que tenham formatos específicos do sistema, necessários para a implementação de novos clientes. Organizar e manter processos internos garantindo a qualidade das informações e a proteção dos dados recebidos.",
-            "Mantendo contato com equipes envolvidas nos procedimentos e realizando a manutenção de todo o processo para que tudo saia conforme os padrões da empresa e realizando o treinamento de novos membros da equipe."
-          ]
+          "content": {
+            "en": [
+              "Management and manipulation of big databases to generate specific formats, necessaries to new clients implementations. Process organization and maintenance to guarantee data protection and information quality in company system.",
+              "Contacting with all involved teams, keeping the process flowing to ensure that every step works as the company standards, and training new import members."
+            ],
+            "es": [
+              "Gestionar y manipular bases con gran cantidad de datos para generar archivos de formato específicos, necesarios para implementación de nuevos clientes. Ordenación y mantenimiento de procesos garantizando la calidad de las informaciones en el sistema y la protección de datos.",
+              "Contacto con los equipos relacionados con los procedimientos y manutención del proceso para que todo salga conforme los estándares de la empresa y realizando entrenamiento de nuevos empleados del equipo."
+            ],
+            "pt": [
+              "Gerir e manipular bases com grande quantidade de dados para gerar arquivos que tenham formatos específicos do sistema, necessários para a implementação de novos clientes. Organizar e manter processos internos garantindo a qualidade das informações e a proteção dos dados recebidos.",
+              "Mantendo contato com equipes envolvidas nos procedimentos e realizando a manutenção de todo o processo para que tudo saia conforme os padrões da empresa e realizando o treinamento de novos membros da equipe."
+            ]
+          },
+          "placeholder": ""
         }
       },
       {
-        "initialDate": "03/2021",
-        "endDate": "05/2021",
-        "company": "Doctoralia Brasil",
         "region": {
-          "en": "Curitiba, Brazil",
-          "es": "Curitiba, Brazil",
-          "pt": "Curitiba, Brasil"
+          "content": {
+            "en": "Curitiba, Brazil",
+            "es": "Curitiba, Brazil",
+            "pt": "Curitiba, Brasil"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Data Analyst",
-          "es": "Analista de Datos",
-          "pt": "Analista de Dados"
+          "content": {
+            "en": "Data Analyst",
+            "es": "Analista de Datos",
+            "pt": "Analista de Dados"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Improve data analysis for Marketing, lead generation and DP phone operations, update and maintenance workflows to optimize data collection. Generate dashboards and data insights for all related teams, focusing on new leads, keep and improve operation control, goals update and team commission standard."
-          ],
-          "es": [
-            "Hacer coleta de datos para optimizar la operación de marketing, generación de contactos y DP Phone, actualizar y mantener la flujos de datos para la correcta captación. Control y mantenimiento de operación, actualización de objetivos, KPI y pagos del equipo."
-          ],
-          "pt": [
-            "Coletar dados para otimizar operações de marketing e geração de leads, atualizar e manter workflows funcionando para correta captação de dados. Controle e manutenção da operação, atualização de metas e KPIs e comissionamento de equipes."
-          ]
+          "content": {
+            "en": [
+              "Improve data analysis for Marketing, lead generation and DP phone operations, update and maintenance workflows to optimize data collection. Generate dashboards and data insights for all related teams, focusing on new leads, keep and improve operation control, goals update and team commission standard."
+            ],
+            "es": [
+              "Hacer coleta de datos para optimizar la operación de marketing, generación de contactos y DP Phone, actualizar y mantener la flujos de datos para la correcta captación. Control y mantenimiento de operación, actualización de objetivos, KPI y pagos del equipo."
+            ],
+            "pt": [
+              "Coletar dados para otimizar operações de marketing e geração de leads, atualizar e manter workflows funcionando para correta captação de dados. Controle e manutenção da operação, atualização de metas e KPIs e comissionamento de equipes."
+            ]
+          },
+          "placeholder": ""
         }
       },
       {
-        "initialDate": "09/2019",
-        "endDate": "03/2021",
-        "company": "Doctoralia Brasil",
         "region": {
-          "en": "Curitiba, Brazil",
-          "es": "Curitiba, Brazil",
-          "pt": "Curitiba, Brasil"
+          "content": {
+            "en": "Curitiba, Brazil",
+            "es": "Curitiba, Brazil",
+            "pt": "Curitiba, Brasil"
+          },
+          "placeholder": ""
         },
         "title": {
-          "en": "Support Analyst",
-          "es": "Analista de Soporte",
-          "pt": "Analista de Suporte"
+          "content": {
+            "en": "Support Analyst",
+            "es": "Analista de Soporte",
+            "pt": "Analista de Suporte"
+          },
+          "placeholder": ""
         },
         "description": {
-          "en": [
-            "Provide support for employees and users with doubts, bugs corrections with scripts on SaaS, Marketplace and financial system. Report weakness, find solutions to prevent bugs, and notify developers about necessary corrections by Jiras. Data report creation and analysis based on Support and Customer Success actions and needs.",
-            "Helped client migration service improvement on support side actions, changing the average time from 20+ working hours to 4 working hours."
-          ],
-          "es": [
-            "Proveer soporte a los empleados y usuarios , hacer corrección de errores del sistema de SaaS, Marketplace y Financiero. Reportar debilidades, encontrar soluciones para prevención de errores y notificar desarrolladores sobre la necesidad de correcciones por medio de Jiras. Crear relatórios de análisis de datos sobre el Soporte y sobre la operación de Customer Success.",
-            "He trabajado directamente con el equipo de desarrollo para incrementar acciones de soporte en las migraciones de nuevos clientes, disminuyendo el tiempo de respuesta de más de 20 horas de trabajo para 4 horas."
-          ],
-          "pt": [
-            "Prestar auxílio para colaboradores da empresa e usuários com dúvidas e correções de bugs via script no sistema, Marketplace e CRM financeiro. Reportar erros de sistema e buscar soluções para prevenção de falhas, notificando desenvolvedores sobre correções necessárias por meio de Jiras. Gerar relatórios de dados sobre a atuação e demanda de Suporte utilizando MySQL e DataStudio.",
-            "Trabalhei diretamente com a equipe de desenvolvimento para implementar ações de suporte nas migrações de novos clientes, diminuindo o tempo de resposta de mais de 20 horas de trabalho para 4 horas."
-          ]
+          "content": {
+            "en": [
+              "Provide support for employees and users with doubts, bugs corrections with scripts on SaaS, Marketplace and financial system. Report weakness, find solutions to prevent bugs, and notify developers about necessary corrections by Jiras. Data report creation and analysis based on Support and Customer Success actions and needs.",
+              "Helped client migration service improvement on support side actions, changing the average time from 20+ working hours to 4 working hours."
+            ],
+            "es": [
+              "Proveer soporte a los empleados y usuarios , hacer corrección de errores del sistema de SaaS, Marketplace y Financiero. Reportar debilidades, encontrar soluciones para prevención de errores y notificar desarrolladores sobre la necesidad de correcciones por medio de Jiras. Crear relatórios de análisis de datos sobre el Soporte y sobre la operación de Customer Success.",
+              "He trabajado directamente con el equipo de desarrollo para incrementar acciones de soporte en las migraciones de nuevos clientes, disminuyendo el tiempo de respuesta de más de 20 horas de trabajo para 4 horas."
+            ],
+            "pt": [
+              "Prestar auxílio para colaboradores da empresa e usuários com dúvidas e correções de bugs via script no sistema, Marketplace e CRM financeiro. Reportar erros de sistema e buscar soluções para prevenção de falhas, notificando desenvolvedores sobre correções necessárias por meio de Jiras. Gerar relatórios de dados sobre a atuação e demanda de Suporte utilizando MySQL e DataStudio.",
+              "Trabalhei diretamente com a equipe de desenvolvimento para implementar ações de suporte nas migrações de novos clientes, diminuindo o tempo de resposta de mais de 20 horas de trabalho para 4 horas."
+            ]
+          },
+          "placeholder": ""
         }
       }
     ]
   },
   "education": {
-    "session": {
-      "en": "Education",
-      "es": "Estudios",
-      "pt": "Estudos"
+    "sectionId": "education",
+    "title": {
+      "content": {
+        "en": "Education",
+        "es": "Estudios",
+        "pt": "Estudos"
+      },
+      "placeholder": ""
     },
     "items": [
       {
         "title": {
-          "en": "Computer Engineering",
-          "es": "Ingeniería Informática",
-          "pt": "Engenharia da Computação"
+          "content": {
+            "en": "Computer Engineering",
+            "es": "Ingeniería Informática",
+            "pt": "Engenharia da Computação"
+          },
+          "placeholder": ""
         },
-        "school": "UNINTER",
-        "initDate": "05/2023",
-        "endDate": "05/2024",
         "description": {
-          "en": "Computer Engineering postgraduate course, focused on products management and emerging technologies.The main subjects of the course were Software Engineering, IT Architecture and Business Model, Projects Analysis and Viability, Computer Network Administration, and Cybersecurity.",
-          "es": "Curso de posgrado en Ingeniería Informática, con enfoque en gestión de productos y tecnología emergente. Los temas más importantes del curso fueron Ingeniería de Software, Arquitectura de TI y Modelos de Negocio, Análisis y Viabilidad de Proyectos, Administración de Redes Informáticas y Ciberseguridad.",
-          "pt": "Curso de pós-graduação em Engenharia da Computação, com foco em gestão de produtos e tecnologias emergentes. Os principais temas abordados no curso foram Engenharia de Software, Arquitetura de TI e Modelos de Negócios, Análise e Viabilidade de Projetos, Administração de Redes de Computadores e Segurança Cibernética."
+          "content": {
+            "en": "Computer Engineering postgraduate course, focused on products management and emerging technologies.The main subjects of the course were Software Engineering, IT Architecture and Business Model, Projects Analysis and Viability, Computer Network Administration, and Cybersecurity.",
+            "es": "Curso de posgrado en Ingeniería Informática, con enfoque en gestión de productos y tecnología emergente. Los temas más importantes del curso fueron Ingeniería de Software, Arquitectura de TI y Modelos de Negocio, Análisis y Viabilidad de Proyectos, Administración de Redes Informáticas y Ciberseguridad.",
+            "pt": "Curso de pós-graduação em Engenharia da Computação, com foco em gestão de produtos e tecnologias emergentes. Os principais temas abordados no curso foram Engenharia de Software, Arquitetura de TI e Modelos de Negócios, Análise e Viabilidade de Projetos, Administração de Redes de Computadores e Segurança Cibernética."
+          },
+          "placeholder": ""
         },
         "degree": {
-          "en": "Postgraduate's Degree",
-          "es": "Posgrado",
-          "pt": "Pós-graduação"
+          "content": {
+            "en": "Postgraduate's Degree",
+            "es": "Posgrado",
+            "pt": "Pós-graduação"
+          },
+          "placeholder": ""
         }
       },
       {
         "title": {
-          "en": "Strategic Management in UX Design",
-          "es": "Gestión Estratégica de UX Design",
-          "pt": "Gestão Estratégica de UX Design"
+          "content": {
+            "en": "Strategic Management in UX Design",
+            "es": "Gestión Estratégica de UX Design",
+            "pt": "Gestão Estratégica de UX Design"
+          },
+          "placeholder": ""
         },
-        "school": "UNINTER",
-        "initDate": "05/2023",
-        "endDate": "05/2024",
         "description": {
-          "en": "Master of Business Administration course, focused on User Experience, Product Management and Digital Marketing. The main subjects of the course were Information, Interaction and Usability Design, User Experience and Digital Platforms, Innovation and Design Thinking, Applied Digital Law, and Decision-Making and Intuition.",
-          "es": "Curso de MBA con enfoque en Experiencia del Usuario, Gestión de Productos y Marketing Digital. Los temas principales del curso fueron: Experiencia del Usuario y Plataformas Digitales, Innovación y Design Thinking, Derecho Digital Aplicado, Toma de Decisiones e Intuición, y Diseño de Información, Interacción y Usabilidad.",
-          "pt": "Curso de MBA com foco em Experiência do Usuário, Gestão de Produtos e Marketing Digital. Os temas principais do curso foram: Experiência do Usuário e Plataformas Digitais, Inovação e Design Thinking, Direito Digital Aplicado, Tomada de Decisão e Intuição, e Design de Informação, Interação e Usabilidade."
+          "content": {
+            "en": "Master of Business Administration course, focused on User Experience, Product Management and Digital Marketing. The main subjects of the course were Information, Interaction and Usability Design, User Experience and Digital Platforms, Innovation and Design Thinking, Applied Digital Law, and Decision-Making and Intuition.",
+            "es": "Curso de MBA con enfoque en Experiencia del Usuario, Gestión de Productos y Marketing Digital. Los temas principales del curso fueron: Experiencia del Usuario y Plataformas Digitales, Innovación y Design Thinking, Derecho Digital Aplicado, Toma de Decisiones e Intuición, y Diseño de Información, Interacción y Usabilidad.",
+            "pt": "Curso de MBA com foco em Experiência do Usuário, Gestão de Produtos e Marketing Digital. Os temas principais do curso foram: Experiência do Usuário e Plataformas Digitais, Inovação e Design Thinking, Direito Digital Aplicado, Tomada de Decisão e Intuição, e Design de Informação, Interação e Usabilidade."
+          },
+          "placeholder": ""
         },
         "degree": {
-          "en": "MBA Degree",
-          "es": "MBA",
-          "pt": "MBA"
+          "content": {
+            "en": "MBA Degree",
+            "es": "MBA",
+            "pt": "MBA"
+          },
+          "placeholder": ""
         }
       },
       {
         "title": {
-          "en": "Systems Analysis and Development",
-          "es": "Desarrollo de Software",
-          "pt": "Análise e Desenvolvimento de Sistemas"
+          "content": {
+            "en": "Systems Analysis and Development",
+            "es": "Desarrollo de Software",
+            "pt": "Análise e Desenvolvimento de Sistemas"
+          },
+          "placeholder": ""
         },
-        "school": "UNICESUMAR",
-        "initDate": "01/2020",
-        "endDate": "08/2022",
         "description": {
-          "en": "2.5 years Software development focused Associate's course. The course gave a basis knowledge for different subjects, being the main ones Front-end and Back-end Development, Programming Logic, SQL, and Database Structure.",
-          "es": "Curso de Análisis y Desarrollo de Software con duración de 2 años y medio. El curso trató de una base en tecnología, tratando los principales temas como: Desarrollo Frontend y Backend, Lógica de Programación, SQL y Bases de Datos.",
-          "pt": "Curso tecnólogo de Análise e Desenvolvimento de Sistemas (2 anos e meio), com foco na base de tecnologia da informação, tratando diferentes temas, sendo os principais o Desenvolvimento Frontend e Backend, Lógica de Programação, SQL e Bases de Dados."
+          "content": {
+            "en": "2.5 years Software development focused Associate's course. The course gave a basis knowledge for different subjects, being the main ones Front-end and Back-end Development, Programming Logic, SQL, and Database Structure.",
+            "es": "Curso de Análisis y Desarrollo de Software con duración de 2 años y medio. El curso trató de una base en tecnología, tratando los principales temas como: Desarrollo Frontend y Backend, Lógica de Programación, SQL y Bases de Datos.",
+            "pt": "Curso tecnólogo de Análise e Desenvolvimento de Sistemas (2 anos e meio), com foco na base de tecnologia da informação, tratando diferentes temas, sendo os principais o Desenvolvimento Frontend e Backend, Lógica de Programação, SQL e Bases de Dados."
+          },
+          "placeholder": ""
         },
         "degree": {
-          "en": "Associate's degree",
-          "es": "Bachillerato Tecnológico",
-          "pt": "Tecnológo"
+          "content": {
+            "en": "Associate's degree",
+            "es": "Bachillerato Tecnológico",
+            "pt": "Tecnológo"
+          },
+          "placeholder": ""
         }
       },
       {
         "title": {
-          "en": "Journalism",
-          "es": "Periodismo",
-          "pt": "Jornalismo"
+          "content": {
+            "en": "Journalism",
+            "es": "Periodismo",
+            "pt": "Jornalismo"
+          },
+          "placeholder": ""
         },
-        "school": "Universidade Metodista de São Paulo",
-        "initDate": "01/2013",
-        "endDate": "12/2017",
         "description": {
-          "en": "4 years Journalism and Social Communication course, during this graduation I had practical experience creating, editing and publishing communication content. I also produced and published a photojournalism book about Inca's culture influence at contemporary Argentina's Northwest territory, being awarded later as the best thesis production of the graduation year.",
-          "es": "Curso de Periodismo y Comunicación Social, con experiencia practica creando, editando y publicando contenidos de comunicación. Durante mi tesis he publicado un libro de fotoperiodismo sobre la influencia de la cultura Inca en el Noreste Argentino, recibiendo el premio de mejor trabajo del año de formación.",
-          "pt": "Curso de Jornalismo e Comunicação Social, trazendo experiência prática criando, editando e publicando conteúdos de comunicação. Como trabalho final do curso, produzi e publiquei um livro de fotojornalismo sobre a influência da cultura Inca no Noroeste Argentina, recebendo o prêmio de melhor produção no ano de formação."
+          "content": {
+            "en": "4 years Journalism and Social Communication course, during this graduation I had practical experience creating, editing and publishing communication content. I also produced and published a photojournalism book about Inca's culture influence at contemporary Argentina's Northwest territory, being awarded later as the best thesis production of the graduation year.",
+            "es": "Curso de Periodismo y Comunicación Social, con experiencia practica creando, editando y publicando contenidos de comunicación. Durante mi tesis he publicado un libro de fotoperiodismo sobre la influencia de la cultura Inca en el Noreste Argentino, recibiendo el premio de mejor trabajo del año de formación.",
+            "pt": "Curso de Jornalismo e Comunicação Social, trazendo experiência prática criando, editando e publicando conteúdos de comunicação. Como trabalho final do curso, produzi e publiquei um livro de fotojornalismo sobre a influência da cultura Inca no Noroeste Argentina, recebendo o prêmio de melhor produção no ano de formação."
+          },
+          "placeholder": ""
         },
         "degree": {
-          "en": "Bachelor's degree",
-          "es": "Bachillerato",
-          "pt": "Bacharelado"
+          "content": {
+            "en": "Bachelor's degree",
+            "es": "Bachillerato",
+            "pt": "Bacharelado"
+          },
+          "placeholder": ""
         }
       }
     ]
   },
   "skills": {
-    "session": {
-      "en": "Skills",
-      "es": "Habilidades",
-      "pt": "Habilidades"
+    "sectionId": "skills",
+    "title": {
+      "content": {
+        "en": "Skills",
+        "es": "Habilidades",
+        "pt": "Habilidades"
+      },
+      "placeholder": ""
     },
     "items": [
       {
@@ -349,9 +483,12 @@
       },
       {
         "skill": {
-          "en": "Data Analysis",
-          "es": "Análisis de Datos",
-          "pt": "Análise de Dados"
+          "content": {
+            "en": "Data Analysis",
+            "es": "Análisis de Datos",
+            "pt": "Análise de Dados"
+          },
+          "placeholder": ""
         },
         "level": 75
       },
@@ -391,113 +528,176 @@
         "skill": "Zendesk",
         "level": 100
       }
-    ]
+    ],
+    "template": {
+      "item": "",
+      "container": ""
+    }
   },
   "Languages": {
-    "session": {
-      "en": "Languages",
-      "es": "Idiomas",
-      "pt": "Idiomas"
+    "sectionId": "languages",
+    "title": {
+      "text": {
+        "content": {
+          "en": "Languages",
+          "es": "Idiomas",
+          "pt": "Idiomas"
+        },
+        "placeholder": ""
+      }
     },
     "items": [
       {
         "language": {
-          "en": "English",
-          "es": "Inglés",
-          "pt": "Inglês"
+          "content": {
+            "en": "English",
+            "es": "Inglés",
+            "pt": "Inglês"
+          },
+          "placeholder": ""
         },
         "proficiency": {
-          "en": "Fluent",
-          "es": "Fluido",
-          "pt": "Fluente"
+          "content": {
+            "en": "Fluent",
+            "es": "Fluido",
+            "pt": "Fluente"
+          },
+          "placeholder": ""
         }
       },
       {
         "language": {
-          "en": "Spanish",
-          "es": "Español",
-          "pt": "Espanhol"
+          "content": {
+            "en": "Spanish",
+            "es": "Español",
+            "pt": "Espanhol"
+          },
+          "placeholder": ""
         },
         "proficiency": {
-          "en": "Fluent",
-          "es": "Fluido",
-          "pt": "Fluente"
+          "content": {
+            "en": "Fluent",
+            "es": "Fluido",
+            "pt": "Fluente"
+          },
+          "placeholder": ""
         }
       },
       {
         "language": {
-          "en": "Portuguese (BR)",
-          "es": "Portugués (BR)",
-          "pt": "Português (BR)"
+          "content": {
+            "en": "Portuguese (BR)",
+            "es": "Portugués (BR)",
+            "pt": "Português (BR)"
+          },
+          "placeholder": ""
         },
         "proficiency": {
-          "en": "Native",
-          "es": "Nativo",
-          "pt": "Nativo"
+          "content": {
+            "en": "Native",
+            "es": "Nativo",
+            "pt": "Nativo"
+          },
+          "placeholder": ""
         }
       }
     ]
   },
-  "projects": [
-    {
-      "name": {
-        "en": "Datafeeds Generator Tool",
-        "es": "Herramienta para Generar Datafeeds",
-        "pt": "Ferramenta para Gerar Datafeeds"
+  "projects": {
+    "sectionId": "projects",
+    "title": {
+      "content": {
+        "en": "Projects",
+        "es": "Proyectos",
+        "pt": "Projetos"
       },
-      "description": {
-        "en": "A website where clients are able to add .CSV files, select the corresponding columns and generate a formatted datafeed file required by ShareASale system.",
-        "es": "Website dónde clientes pueden importar sus archivos .CSV, elegir las columnas correspondientes y luego generar un archivo de datafeed en el estándar del sistema de ShareASale.",
-        "pt": "Website para que clientes possam importar os arquivos .CSV, selecionar as colunas correspondentes e fazer download de um arquivo de datafeed gerado nos padrões do sistema da ShareASale."
-      },
-      "image": "./images/sas-datafeed-generator.png",
-      "skills": ["JavaScript", "Data", "CSS", "HTML"],
-      "link": "https://arthurfms.github.io/sas-datafeed-generator/"
+      "placeholder": ""
     },
-    {
-      "name": {
-        "en": "Browser Extension",
-        "es": "Extensión de Navegador",
-        "pt": "Extensão de Navegador"
+    "items": [
+      {
+        "name": {
+          "content": {
+            "en": "Datafeeds Generator Tool",
+            "es": "Herramienta para Generar Datafeeds",
+            "pt": "Ferramenta para Gerar Datafeeds"
+          },
+          "placeholder": ""
+        },
+        "description": {
+          "content": {
+            "en": "A website where clients are able to add .CSV files, select the corresponding columns and generate a formatted datafeed file required by ShareASale system.",
+            "es": "Website dónde clientes pueden importar sus archivos .CSV, elegir las columnas correspondientes y luego generar un archivo de datafeed en el estándar del sistema de ShareASale.",
+            "pt": "Website para que clientes possam importar os arquivos .CSV, selecionar as colunas correspondentes e fazer download de um arquivo de datafeed gerado nos padrões do sistema da ShareASale."
+          },
+          "placeholder": ""
+        },
+        "image": "./images/sas-datafeed-generator.png",
+        "skills": ["JavaScript", "Data", "CSS", "HTML"],
+        "link": "https://arthurfms.github.io/sas-datafeed-generator/"
       },
-      "description": {
-        "en": "Browser extension created for daily use for ShareASale employees to help and improve job routine. This extension includes an iframe with different links and tools to be used (decoding URL, accessing client's accounts and navigating through company's software), it also includes a Web Scraping tool to display and download transactions from client's profile.",
-        "es": "Extensión de navegador creada para usu diaria de los empleados de ShareASale, para que les ayude en su rutina de trabajo. Esta extensión incluye iframes con distintos links y herramientas que pueden ser utilizadas (decoder de URL, acceder a cuentas de clientes y navegar entre distintos softwares de la empresa), también incluye una herramienta de Web Scraping que genera reportes y permite hacer download de todas las transaciones del perfil del cliente.",
-        "pt": "Extensão de navegador criada para uso diário dos empregados da ShareASale em suas tarefas diárias. Esta extensão inclui iframes com diferentes links e ferramentas que podem ser utilizadas (decoder de URL, acessar contas de clientes e navegar entre os diferentes softwares da empresa), também inclui uma ferramenta de Web Scraping que gera relatórios e permite fazer download de todas as transações do perfil do cliente."
+      {
+        "name": {
+          "content": {
+            "en": "Browser Extension",
+            "es": "Extensión de Navegador",
+            "pt": "Extensão de Navegador"
+          },
+          "placeholder": ""
+        },
+        "description": {
+          "content": {
+            "en": "Browser extension created for daily use for ShareASale employees to help and improve job routine. This extension includes an iframe with different links and tools to be used (decoding URL, accessing client's accounts and navigating through company's software), it also includes a Web Scraping tool to display and download transactions from client's profile.",
+            "es": "Extensión de navegador creada para usu diaria de los empleados de ShareASale, para que les ayude en su rutina de trabajo. Esta extensión incluye iframes con distintos links y herramientas que pueden ser utilizadas (decoder de URL, acceder a cuentas de clientes y navegar entre distintos softwares de la empresa), también incluye una herramienta de Web Scraping que genera reportes y permite hacer download de todas las transaciones del perfil del cliente.",
+            "pt": "Extensão de navegador criada para uso diário dos empregados da ShareASale em suas tarefas diárias. Esta extensão inclui iframes com diferentes links e ferramentas que podem ser utilizadas (decoder de URL, acessar contas de clientes e navegar entre os diferentes softwares da empresa), também inclui uma ferramenta de Web Scraping que gera relatórios e permite fazer download de todas as transações do perfil do cliente."
+          },
+          "placeholder": ""
+        },
+        "image": "./images/sas-internal-tool.png",
+        "skills": ["API", "Web Scraping", "JavaScript", "CSS", "HTML"],
+        "link": "https://github.com/arthurfms/sas-extension"
       },
-      "image": "./images/sas-internal-tool.png",
-      "skills": ["API", "Web Scraping", "JavaScript", "CSS", "HTML"],
-      "link": "https://github.com/arthurfms/sas-extension"
-    },
-    {
-      "name": {
-        "en": "Resume Template Website",
-        "es": "Template de Website CV",
-        "pt": "Templade de Website CV"
+      {
+        "name": {
+          "content": {
+            "en": "Resume Template Website",
+            "es": "Template de Website CV",
+            "pt": "Templade de Website CV"
+          },
+          "placeholder": ""
+        },
+        "description": {
+          "content": {
+            "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
+            "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
+            "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
+          },
+          "placeholder": ""
+        },
+        "image": "./images/portfolio-template.png",
+        "skills": ["JavaScript", "CSS", "HTML"],
+        "link": "https://arthurfms.github.io/resume/"
       },
-      "description": {
-        "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
-        "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
-        "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
-      },
-      "image": "./images/portfolio-template.png",
-      "skills": ["JavaScript", "CSS", "HTML"],
-      "link": "https://arthurfms.github.io/resume/"
-    },
-    {
-      "name": {
-        "en": "Practicum Bootcamp Project",
-        "es": "Proyecto del Bootcamp de Practicum",
-        "pt": "Projeto do Bootcamp da Practicum"
-      },
-      "description": {
-        "en": "A social media simulator, where the user can change name or job position, and add new image post. This website uses API to send and retrieve information from a server.",
-        "es": "Website que simula una red social, dónde el usuário puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
-        "pt": "Webiste que simula uma rede social, onde o usuário pode atualizar seu nome ou posto de trabalho, também é possível adicionar publicações de imagens. Este site utiliza API para enviar e receber informações do servidor."
-      },
-      "image": "./images/practicum%20-%203.png",
-      "skills": ["API", "JavaScript", "CSS", "HTML"],
-      "link": "https://arthurfms.github.io/web_project_4/"
-    }
-  ]
+      {
+        "name": {
+          "content": {
+            "en": "Practicum Bootcamp Project",
+            "es": "Proyecto del Bootcamp de Practicum",
+            "pt": "Projeto do Bootcamp da Practicum"
+          },
+          "placeholder": ""
+        },
+        "description": {
+          "content": {
+            "en": "A social media simulator, where the user can change name or job position, and add new image post. This website uses API to send and retrieve information from a server.",
+            "es": "Website que simula una red social, dónde el usuário puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
+            "pt": "Webiste que simula uma rede social, onde o usuário pode atualizar seu nome ou posto de trabalho, também é possível adicionar publicações de imagens. Este site utiliza API para enviar e receber informações do servidor."
+          },
+          "placeholder": ""
+        },
+        "image": "./images/practicum%20-%203.png",
+        "skills": ["API", "JavaScript", "CSS", "HTML"],
+        "link": "https://arthurfms.github.io/web_project_4/"
+      }
+    ]
+  }
 }
