@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="">
   <!-- 
       _________________________________________________
      |               CONTACT INFORMATION               |
@@ -10,16 +10,12 @@
      |   • Linkedin:   www.github.com/arthurfms        |
      |_________________________________________________|
   -->
-
-  <!--
-  Create a JSON handler to add the website information making JS queries to add into it
-  Each section will need specific IDs to be indeitified by the JS, and make queries clean
-  -->
   <head>
     <meta name="author" content="Arthur Fernandes" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Arthur Fernandes</title>
+    <link rel="stylesheet" href="styles/components/reset.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <script
       src="https://kit.fontawesome.com/4b3366efb4.js"
@@ -33,6 +29,15 @@
       <script type="text/javascript" src="./scripts/particles/app.js"></script>
     </div>
     <header class="header">
+      <div class="languages-handler">
+        <span
+          class="languages-handler__item languages-handler__item_active"
+          id="language-en"
+          >EN</span
+        >
+        <span class="languages-handler__item" id="language-es">ES</span>
+        <span class="languages-handler__item" id="language-pt">PT</span>
+      </div>
       <div class="menu-handler">
         <span class="menu-handler__line"></span>
         <span class="menu-handler__line"></span>
@@ -42,57 +47,43 @@
           <li class="menu-item menu-item_active">
             <a href="#" class="menu-item__link">
               <i class="fa-regular fa-user"></i
-              ><span class="menu-item__text" id="menu-item-about_ph"
-                >About Me</span
-              >
+              ><span class="menu-item__text" id="menu-item-about_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
               <i class="fa-solid fa-bars-staggered"></i
-              ><span class="menu-item__text" id="menu-item-work_ph"
-                >Work Experience</span
-              >
+              ><span class="menu-item__text" id="menu-item-work_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
               <i class="fa-regular fa-bookmark"></i
-              ><span class="menu-item__text" id="menu-item-education_ph"
-                >Education</span
-              >
+              ><span class="menu-item__text" id="menu-item-education_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
               <i class="fa-solid fa-chart-gantt"></i
-              ><span class="menu-item__text" id="menu-item-skills_ph"
-                >Skills</span
-              >
+              ><span class="menu-item__text" id="menu-item-skills_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
-              <i class="fa-solid fa-chart-gantt"></i
-              ><span class="menu-item__text" id="menu-item-languages_ph"
-                >Languages</span
-              >
+              <i class="fa-regular fa-message"></i
+              ><span class="menu-item__text" id="menu-item-languages_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
               <i class="fa-solid fa-list"></i
-              ><span class="menu-item__text" id="menu-item-projects_ph"
-                >Projects</span
-              >
+              ><span class="menu-item__text" id="menu-item-projects_ph"></span>
             </a>
           </li>
           <li class="menu-item">
             <a href="#" class="menu-item__link">
               <i class="fa-regular fa-address-card"></i
-              ><span class="menu-item__text" id="menu-item-contact_ph"
-                >Contact</span
-              >
+              ><span class="menu-item__text" id="menu-item-contact_ph"></span>
             </a>
           </li>
         </ul>
@@ -129,49 +120,46 @@
           <span class="header-image__frame"></span>
         </div>
         <div class="header-content">
-          <p class="header-content__title" id="header-title_ph">About me</p>
+          <p class="header-content__title" id="header-title_ph"></p>
           <span class="header-content__line"></span>
-          <h4 class="header-content__description" id="header-description_ph">
-            Software Analyst with MBA and postgraduate in Tech courses, working
-            as a Global Integration Analyst at Awin. Experienced working with
-            front-end development, APIs, data analysis, data manipulation and
-            customer support (Tier 2).
-          </h4>
+          <h4
+            class="header-content__description"
+            id="header-description_ph"></h4>
           <ul class="header-details json-identifier">
             <li class="header-detail">
-              <p class="header-detail__title" id="header-detail-title1_ph">
-                Country:
-              </p>
-              <p class="header-detail__content" id="header-detail-content1_ph">
-                Brazil
-              </p>
+              <p class="header-detail__title" id="header-detail-title1_ph"></p>
+              <p
+                class="header-detail__content"
+                id="header-detail-content1_ph"></p>
             </li>
             <li class="header-detail">
-              <p class="header-detail__title" id="header-detail-title2_ph">
-                Age:
-              </p>
-              <p class="header-detail__content" id="header-detail-content2_ph">
-                31
-              </p>
+              <p class="header-detail__title" id="header-detail-title2_ph"></p>
+              <p
+                class="header-detail__content"
+                id="header-detail-content2_ph"></p>
             </li>
             <li class="header-detail">
-              <p class="header-detail__title" id="header-detail-title3_ph">
-                Phone:
-              </p>
-              <p class="header-detail__content">+55 11 97107-1806</p>
+              <p class="header-detail__title" id="header-detail-title3_ph"></p>
+              <p
+                class="header-detail__content"
+                id="header-detail-content3_ph"></p>
             </li>
             <li class="header-detail">
-              <p class="header-detail__title" id="header-detail-title4_ph">
-                Email:
-              </p>
-              <p class="header-detail__content">a.fms@hotmail.com</p>
+              <p class="header-detail__title" id="header-detail-title4_ph"></p>
+              <p
+                class="header-detail__content"
+                id="header-detail-content4_ph"></p>
             </li>
           </ul>
         </div>
       </div>
     </header>
     <main>
-      <section class="section" id="about"></section>
+      <section class="section" id="about">
+        <div class="section-header">
+          <h3 class="section-header__title">Work Experience</h3>
+        </div>
+      </section>
     </main>
   </body>
   <script type="module" src="./scripts/index.js"></script>

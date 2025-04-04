@@ -1,8 +1,10 @@
 import data from "./components/resume.json" with { type: "json" };
 
 window.addEventListener("load", () => {
+
   const getLang = () => {
-    let language = sessionStorage.getItem("language") ? sessionStorage.getItem("language") : "en-US";
+    let language = sessionStorage.getItem("language") ? sessionStorage.getItem("language") : "en";
+
     if (sessionStorage.getItem("language") == null) {
       const userLocale =
       navigator.languages && navigator.languages.length
@@ -10,19 +12,20 @@ window.addEventListener("load", () => {
         : navigator.language;
       
       language = userLocale;
-      sessionStorage.setItem("language", language ? language.substring(0, 2) : language);
+      sessionStorage.setItem("language", language ? language.substring(0, 2) : "en");
     }
 
     document.querySelector("html").lang = language;
     return sessionStorage.getItem("language").substring(0, 2);
   }
+
   
 
-  let lang = getLang();
+  let language = getLang();
 
   let page = document.querySelector(".page");
 
-  const handleSection = (section) => {
+  const handleSection = (section, lang) => {
     if ( section.title ) {
       page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
     }
@@ -36,11 +39,34 @@ window.addEventListener("load", () => {
     }
   }
 
-  // Handle menu items
-  handleSection(data.menu);
-  handleSection(data.about);
+  const generatePage = (lang) => {
+    page.classList.add("page_loading");
+    sessionStorage.setItem("language", lang);
 
+    setTimeout(() => {
+    let langItems = document.querySelectorAll(".languages-handler__item");
 
+    langItems.forEach(item => {
+      let itemLang = item.id.substring(item.id.length - 2);
+      itemLang == lang ? item.classList.add("languages-handler__item_active") : item.classList.remove("languages-handler__item_active");
+    });
+     
+    // Handle items
+    handleSection(data.menu, lang);
+    handleSection(data.about, lang);
 
+    
+      page.classList.remove("page_loading");
+    }, 150);
+    
+  }
 
+  generatePage(language);
+
+  document.querySelectorAll(".languages-handler__item").forEach(langItem => {
+    langItem.addEventListener("click", (evt) => {
+      let lang = evt.target.id.substring(evt.target.id.length - 2);
+      generatePage(lang);
+    });
+  });
 });

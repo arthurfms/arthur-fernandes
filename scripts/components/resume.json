@@ -100,8 +100,16 @@
         "placeholder": "header-detail-title3_ph"
       },
       {
+        "content": "+55 11 97107-1806",
+        "placeholder": "header-detail-content3_ph"
+      },
+      {
         "content": { "en": "Email:", "es": "E-mail:", "pt": "E-mail:" },
         "placeholder": "header-detail-title4_ph"
+      },
+      {
+        "content": "a.fms@hotmail.com",
+        "placeholder": "header-detail-content4_ph"
       }
     ],
     "image": {
