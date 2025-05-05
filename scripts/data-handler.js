@@ -78,7 +78,7 @@ window.addEventListener("load", () => {
       page.querySelector(`#${section.subtitle.placeholder}`).textContent = section.subtitle.content[lang] ? section.subtitle.content[lang] : section.subtitle.content;
     }
     if ( section.items ) {
-      section.items.forEach(item => {
+      section.items.forEach((item, index) => {
         if ( item.title ) {
           page.querySelector(`#${item.title.placeholder}`).textContent = item.title.content[lang] ? item.title.content[lang] : item.title.content;
         }
@@ -106,7 +106,59 @@ window.addEventListener("load", () => {
           `;
           itemsCont.append(newItem);
         }
+        if ( item.language ) {
+          let itemsCont = document.querySelector(`#${section.itemsPlaceholder}`);
+          itemsCont.innerHTML = index == 0 ? "": itemsCont.innerHTML;
+          let newItem = document.createElement("div");
+          newItem.classList.add("card", "card_small", "card_dark");
+          let language = item.language.content ? item.language.content[lang] : item.language;
+          let level = item.level.content ? item.level.content[lang] : item.level;
+
+          newItem.innerHTML = `
+              <div class="card__header">
+                <h3 class="card__title" id="edu-card-title3_ph">${language}</h3>
+              </div>
+              <p class="card__detail">${level}</p>      
+          `;
+          itemsCont.append(newItem);
+        }
       });
+    }
+  }
+
+  const handleTwocolumns = (section, lang) => {
+    console.log(section);
+    if ( section.title ) {
+      page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
+    }
+    if ( section.subtitle ) {
+      page.querySelector(`#${section.subtitle.placeholder}`).textContent = section.subtitle.content[lang] ? section.subtitle.content[lang] : section.subtitle.content;
+    }
+    if ( section.items ) {
+      let itemsCont = document.querySelector(`#${section.itemsPlaceholder}`);
+      section.items.forEach((item, index) => {
+        let newItem = document.createElement("a");
+        newItem.classList.add("two-columns__item"),
+        newItem.href = item.link;
+        let imgSrc = item.image;
+        let itemTitle = item.title.content[lang] ? item.title.content[lang] : item.title.content;
+        let itemSkills = ``;
+
+        item.skills.forEach(skill => {
+          itemSkills += `<p class="two-columns__item-skill">${skill}</p>`;
+        });
+
+        newItem.innerHTML = `
+          <img class="two-columns__image" src="${imgSrc}" alt="${itemTitle}" />
+          <div class="two-columns__right">
+            <p class="two-columns__item-title">${itemTitle}</p>
+            <div class="two-columns__item-skills">${itemSkills}</div>
+            <p class="two-columns__item-description">${item.description.content[lang] ? item.description.content[lang] : item.description.content}</p>
+          </div>     
+         `;
+         itemsCont.append(newItem);
+      });
+      
     }
   }
 
@@ -128,6 +180,8 @@ window.addEventListener("load", () => {
     handleTimelineSection(data.work, lang);
     handleCardListSection(data.education, lang);
     handleCardListSection(data.skills, lang);
+    handleCardListSection(data.languages, lang);
+    handleTwocolumns(data.projects, lang);
 
     
       page.classList.remove("page_loading");

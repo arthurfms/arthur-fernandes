@@ -502,17 +502,15 @@
     ],
     "itemsPlaceholder": "list-items_ph"
   },
-  "Languages": {
+  "languages": {
     "sectionId": "languages",
     "title": {
-      "text": {
-        "content": {
-          "en": "Languages",
-          "es": "Idiomas",
-          "pt": "Idiomas"
-        },
-        "placeholder": ""
-      }
+      "content": {
+        "en": "Languages",
+        "es": "Idiomas",
+        "pt": "Idiomas"
+      },
+      "placeholder": "section-title-languages_ph"
     },
     "items": [
       {
@@ -521,16 +519,14 @@
             "en": "English",
             "es": "Inglés",
             "pt": "Inglês"
-          },
-          "placeholder": ""
+          }
         },
-        "proficiency": {
+        "level": {
           "content": {
             "en": "Fluent",
             "es": "Fluido",
             "pt": "Fluente"
-          },
-          "placeholder": ""
+          }
         }
       },
       {
@@ -539,16 +535,14 @@
             "en": "Spanish",
             "es": "Español",
             "pt": "Espanhol"
-          },
-          "placeholder": ""
+          }
         },
-        "proficiency": {
+        "level": {
           "content": {
             "en": "Fluent",
             "es": "Fluido",
             "pt": "Fluente"
-          },
-          "placeholder": ""
+          }
         }
       },
       {
@@ -557,19 +551,18 @@
             "en": "Portuguese (BR)",
             "es": "Portugués (BR)",
             "pt": "Português (BR)"
-          },
-          "placeholder": ""
+          }
         },
-        "proficiency": {
+        "level": {
           "content": {
             "en": "Native",
             "es": "Nativo",
             "pt": "Nativo"
-          },
-          "placeholder": ""
+          }
         }
       }
-    ]
+    ],
+    "itemsPlaceholder": "cards-lang_ph"
   },
   "projects": {
     "sectionId": "projects",
@@ -579,93 +572,86 @@
         "es": "Proyectos",
         "pt": "Projetos"
       },
-      "placeholder": ""
+      "placeholder": "section-title-languages_ph"
     },
     "items": [
       {
-        "name": {
+        "title": {
           "content": {
             "en": "Datafeeds Generator Tool",
             "es": "Herramienta para Generar Datafeeds",
             "pt": "Ferramenta para Gerar Datafeeds"
-          },
-          "placeholder": ""
+          }
         },
         "description": {
           "content": {
             "en": "A website where clients are able to add .CSV files, select the corresponding columns and generate a formatted datafeed file required by ShareASale system.",
             "es": "Website dónde clientes pueden importar sus archivos .CSV, elegir las columnas correspondientes y luego generar un archivo de datafeed en el estándar del sistema de ShareASale.",
             "pt": "Website para que clientes possam importar os arquivos .CSV, selecionar as colunas correspondentes e fazer download de um arquivo de datafeed gerado nos padrões do sistema da ShareASale."
-          },
-          "placeholder": ""
+          }
         },
         "image": "./images/sas-datafeed-generator.png",
         "skills": ["JavaScript", "Data", "CSS", "HTML"],
         "link": "https://arthurfms.github.io/sas-datafeed-generator/"
       },
       {
-        "name": {
+        "title": {
           "content": {
             "en": "Browser Extension",
             "es": "Extensión de Navegador",
             "pt": "Extensão de Navegador"
-          },
-          "placeholder": ""
+          }
         },
         "description": {
           "content": {
             "en": "Browser extension created for daily use for ShareASale employees to help and improve job routine. This extension includes an iframe with different links and tools to be used (decoding URL, accessing client's accounts and navigating through company's software), it also includes a Web Scraping tool to display and download transactions from client's profile.",
             "es": "Extensión de navegador creada para usu diaria de los empleados de ShareASale, para que les ayude en su rutina de trabajo. Esta extensión incluye iframes con distintos links y herramientas que pueden ser utilizadas (decoder de URL, acceder a cuentas de clientes y navegar entre distintos softwares de la empresa), también incluye una herramienta de Web Scraping que genera reportes y permite hacer download de todas las transaciones del perfil del cliente.",
             "pt": "Extensão de navegador criada para uso diário dos empregados da ShareASale em suas tarefas diárias. Esta extensão inclui iframes com diferentes links e ferramentas que podem ser utilizadas (decoder de URL, acessar contas de clientes e navegar entre os diferentes softwares da empresa), também inclui uma ferramenta de Web Scraping que gera relatórios e permite fazer download de todas as transações do perfil do cliente."
-          },
-          "placeholder": ""
+          }
         },
         "image": "./images/sas-internal-tool.png",
         "skills": ["API", "Web Scraping", "JavaScript", "CSS", "HTML"],
         "link": "https://github.com/arthurfms/sas-extension"
       },
       {
-        "name": {
+        "title": {
           "content": {
             "en": "Resume Template Website",
             "es": "Template de Website CV",
             "pt": "Templade de Website CV"
-          },
-          "placeholder": ""
+          }
         },
         "description": {
           "content": {
             "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
             "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
             "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
-          },
-          "placeholder": ""
+          }
         },
         "image": "./images/portfolio-template.png",
         "skills": ["JavaScript", "CSS", "HTML"],
         "link": "https://arthurfms.github.io/resume/"
       },
       {
-        "name": {
+        "title": {
           "content": {
             "en": "Practicum Bootcamp Project",
             "es": "Proyecto del Bootcamp de Practicum",
             "pt": "Projeto do Bootcamp da Practicum"
-          },
-          "placeholder": ""
+          }
         },
         "description": {
           "content": {
             "en": "A social media simulator, where the user can change name or job position, and add new image post. This website uses API to send and retrieve information from a server.",
             "es": "Website que simula una red social, dónde el usuário puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
             "pt": "Webiste que simula uma rede social, onde o usuário pode atualizar seu nome ou posto de trabalho, também é possível adicionar publicações de imagens. Este site utiliza API para enviar e receber informações do servidor."
-          },
-          "placeholder": ""
+          }
         },
         "image": "./images/practicum%20-%203.png",
         "skills": ["API", "JavaScript", "CSS", "HTML"],
         "link": "https://arthurfms.github.io/web_project_4/"
       }
-    ]
+    ],
+    "itemsPlaceholder": "projects-items_ph"
   }
 }
