@@ -609,3 +609,7 @@
   display: flex;
   margin: 40px auto;
 }
+/* FIX IMAGE SIZE */
+.two-columns__image {
+  width: 200px;
+}

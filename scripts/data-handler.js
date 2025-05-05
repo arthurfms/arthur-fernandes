@@ -127,8 +127,8 @@ window.addEventListener("load", () => {
   }
 
   const handleTwocolumns = (section, lang) => {
-    console.log(section);
     if ( section.title ) {
+      console.log(section.title.placeholder);
       page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
     }
     if ( section.subtitle ) {
@@ -137,6 +137,7 @@ window.addEventListener("load", () => {
     if ( section.items ) {
       let itemsCont = document.querySelector(`#${section.itemsPlaceholder}`);
       section.items.forEach((item, index) => {
+        itemsCont.innerHTML = index == 0 ? "": itemsCont.innerHTML;
         let newItem = document.createElement("a");
         newItem.classList.add("two-columns__item"),
         newItem.href = item.link;
