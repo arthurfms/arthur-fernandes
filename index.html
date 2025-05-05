@@ -29,18 +29,20 @@
       <script type="text/javascript" src="./scripts/particles/app.js"></script>
     </div>
     <header class="header">
-      <div class="languages-handler">
-        <span
-          class="languages-handler__item languages-handler__item_active"
-          id="language-en"
-          >EN</span
-        >
-        <span class="languages-handler__item" id="language-es">ES</span>
-        <span class="languages-handler__item" id="language-pt">PT</span>
-      </div>
-      <div class="menu-handler">
-        <span class="menu-handler__line"></span>
-        <span class="menu-handler__line"></span>
+      <div class="handler-container">
+        <div class="languages-handler">
+          <span
+            class="languages-handler__item languages-handler__item_active"
+            id="language-en"
+            >EN</span
+          >
+          <span class="languages-handler__item" id="language-es">ES</span>
+          <span class="languages-handler__item" id="language-pt">PT</span>
+        </div>
+        <div class="menu-handler">
+          <span class="menu-handler__line"></span>
+          <span class="menu-handler__line"></span>
+        </div>
       </div>
       <nav class="menu">
         <ul class="menu-items menu-items_main">
@@ -155,10 +157,151 @@
       </div>
     </header>
     <main>
-      <section class="section" id="about">
+      <section class="section" id="work-experience">
         <div class="section-header">
-          <h3 class="section-header__title">Work Experience</h3>
+          <h3 class="section-header__title" id="section-title-work_ph"></h3>
+          <h6
+            class="section-header__subtitle"
+            id="section-subtitle-work_ph"></h6>
         </div>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              HCLTech (UberEats)
+              <span class="timeline-item__title_detail"
+                >03/2024 - <span id="timeline-item-title1_ph"></span
+              ></span>
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle1_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description1_ph"></div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              Awin Global<span class="timeline-item__title_detail"
+                >02/2024 - 02/2025</span
+              >
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle2_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description2_ph"></div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              InboundCycle<span class="timeline-item__title_detail"
+                >09/2022 - 01/2024</span
+              >
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle3_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description3_ph"></div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              Doctoralia España
+              <span class="timeline-item__title_detail">05/2021 - 09/2022</span>
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle4_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description4_ph">
+              <p class="timeline-item__description-item"></p>
+              <p class="timeline-item__description-item"></p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              Doctoralia Brasil
+              <span class="timeline-item__title_detail">03/2021 - 05/2021</span>
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle5_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description5_ph">
+              <p class="timeline-item__description-item"></p>
+              <p class="timeline-item__description-item"></p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <span class="timeline-item__detail"></span>
+            <p class="timeline-item__title">
+              Doctoralia Brasil
+              <span class="timeline-item__title_detail">09/2019 - 03/2021</span>
+            </p>
+            <p
+              class="timeline-item__subtitle"
+              id="timeline-item-subtitle6_ph"></p>
+            <div
+              class="timeline-item__description"
+              id="timeline-item-description6_ph">
+              <p class="timeline-item__description-item"></p>
+              <p class="timeline-item__description-item"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section" id="education">
+        <div class="section-header">
+          <h3 class="section-header__title" id="section-title-edu_ph"></h3>
+        </div>
+        <div class="cards">
+          <div class="card">
+            <div class="card__header">
+              <h3 class="card__title" id="edu-card-title1_ph"></h3>
+              <span class="card__detail" id="edu-card-titledet1_ph"></span>
+              <p class="card__subtitle">UNINTER</p>
+            </div>
+            <p class="card__description" id="edu-card-desc1_ph"></p>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <h3 class="card__title" id="edu-card-title2_ph"></h3>
+              <span class="card__detail" id="edu-card-titledet2_ph"></span>
+              <p class="card__subtitle">UNINTER</p>
+            </div>
+            <p class="card__description" id="edu-card-desc2_ph"></p>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <h3 class="card__title" id="edu-card-title3_ph"></h3>
+              <span class="card__detail" id="edu-card-titledet3_ph"></span>
+              <p class="card__subtitle">UNICESUMAR</p>
+            </div>
+            <p class="card__description" id="edu-card-desc3_ph"></p>
+          </div>
+          <div class="card">
+            <div class="card__header">
+              <h3 class="card__title" id="edu-card-title4_ph"></h3>
+              <span class="card__detail" id="edu-card-titledet4_ph"></span>
+              <p class="card__subtitle">Universidade Metodista</p>
+            </div>
+            <p class="card__description" id="edu-card-desc4_ph"></p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="section-header">
+          <h3 class="section-header__title" id="section-title-skills_ph"></h3>
+        </div>
+        <div class="list" id="list-items_ph"></div>
       </section>
     </main>
   </body>

@@ -122,75 +122,67 @@
     }
   },
   "work": {
-    "sectionId": "work",
+    "sectionId": "work-experience",
     "title": {
       "content": {
         "en": "Work Experience",
         "es": "Experiencia laboral",
         "pt": "Experiência"
       },
-      "placeholder": ""
+      "placeholder": "section-title-work_ph"
+    },
+    "subtitle": {
+      "content": {
+        "en": "More than 5 years working into IT positions, having experience with Data Analysis, Data Manipulation, Customer Support and Software Development with international companies and multicultural teams.",
+        "es": "Más de 5 años trabajando en puestos de TI, experiente con Análisis de Datos, Manipulación de Datos, Soporte al Cliente y Desarrollo de Software, trabajando a empresas internacionales y equipos multiculturales.",
+        "pt": "Mais de 5 anos de trabalhando em posições de TI, experiência com Análise de Dados, Manipulação de Dados, Suporte ao Cliente e Desenvolvimento de Software, em empresas internacionais e times multiculturais."
+      },
+      "placeholder": "section-subtitle-work_ph"
     },
     "items": [
       {
-        "endDate": {
+        "title": {
           "content": {
-            "en": "Currently",
+            "en": "Present",
             "es": "Actualmente",
             "pt": "Atualmente"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-title1_ph"
         },
-        "region": {
-          "content": {
-            "en": "Brazil, remote",
-            "es": "Brazil, remoto",
-            "pt": "Brasil, remoto"
-          },
-          "placeholder": ""
-        },
-        "title": {
+        "subtitle": {
           "content": {
             "en": "Tech Support Engineer T3",
             "es": "Ingeniero de Soporte N3",
-            "pt": "Ingeniero de Soporte N3"
+            "pt": "Engenheiro de Suporte L3"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle1_ph"
         },
         "description": {
           "content": {
             "en": [
-              "Support UberEats clients (restaurants and developers) to get a proper integration between their software and Uber’s API. Manage developer’s accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
+              "Support UberEats clients' tech team to get a proper integration between their software and Uber's API. Manage developer's accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
               "Perform data analysis and checking different reports to confirm the UberEats process for each client, to identify and work on different integration issues."
             ],
             "es": [
-              "Dar soporte a clientes de UberEats (restaurantes y desarrolladores) para que las integraciones entre su software y la API de uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
+              "Dar soporte al equipo tecnico de clientes de UberEats para que las integraciones entre su software y la API de uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
               "Hacer análisis de datos y verificar distintos reportes para confirmar las integraciones, identificando y trabajando en distintos tipos de errores."
             ],
             "pt": [
-              "Prestar suporte para clientes da UberEats (restaurantes e desenvolvedores), para que as integrações entre o software do cliente e a API do uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
+              "Prestar suporte para equipes técnicas de clientes da UberEats, para que as integrações entre o software do cliente e a API do uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
               "Realizar análise de dados e verificar diferentes relatórios para confirmar as integraçãos, identificando e trabalhando em diferentes tipos de erros."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description1_ph"
         }
       },
       {
-        "region": {
-          "content": {
-            "en": "Brazil, remote",
-            "es": "Brazil, remoto",
-            "pt": "Brasil, remoto"
-          },
-          "placeholder": ""
-        },
-        "title": {
+        "subtitle": {
           "content": {
             "en": "Global Integration Analyst",
             "es": "Analista de Integraciones Global",
             "pt": "Analista de Integrações Global"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle2_ph"
         },
         "description": {
           "content": {
@@ -207,25 +199,17 @@
               "Trabalhar nas integrações para resolver problemas técnicos e garantir que a solução de marketing de afiliados funcione corretamente."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description2_ph"
         }
       },
       {
-        "region": {
+        "subtitle": {
           "content": {
-            "en": "Brazil, remote",
-            "es": "Brazil, remoto",
-            "pt": "Brasil, remoto"
-          },
-          "placeholder": ""
-        },
-        "title": {
-          "content": {
-            "en": "Frontend Developer",
+            "en": "Front-end Developer",
             "es": "Desarrollador Frontend",
             "pt": "Desenvolvedor Frontend"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle3_ph"
         },
         "description": {
           "content": {
@@ -242,25 +226,17 @@
               "Manter o servidor, criar relatórios e encontrar soluções para as solicitações das equipes internas e clientes. Analisar incidentes, encontrar erros e trabalhar diretamente nas soluções, mantendo cada projeto funcionando da forma correta."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description3_ph"
         }
       },
       {
-        "region": {
-          "content": {
-            "en": "Barcelona, Spain",
-            "es": "Barcelona, España",
-            "pt": "Barcelona, Espanha"
-          },
-          "placeholder": ""
-        },
-        "title": {
+        "subtitle": {
           "content": {
             "en": "Data Implementation Specialist",
             "es": "Esp. de Implementación de datos",
             "pt": "Esp. de Implementação de dados"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle4_ph"
         },
         "description": {
           "content": {
@@ -277,25 +253,17 @@
               "Mantendo contato com equipes envolvidas nos procedimentos e realizando a manutenção de todo o processo para que tudo saia conforme os padrões da empresa e realizando o treinamento de novos membros da equipe."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description4_ph"
         }
       },
       {
-        "region": {
-          "content": {
-            "en": "Curitiba, Brazil",
-            "es": "Curitiba, Brazil",
-            "pt": "Curitiba, Brasil"
-          },
-          "placeholder": ""
-        },
-        "title": {
+        "subtitle": {
           "content": {
             "en": "Data Analyst",
             "es": "Analista de Datos",
             "pt": "Analista de Dados"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle5_ph"
         },
         "description": {
           "content": {
@@ -309,25 +277,17 @@
               "Coletar dados para otimizar operações de marketing e geração de leads, atualizar e manter workflows funcionando para correta captação de dados. Controle e manutenção da operação, atualização de metas e KPIs e comissionamento de equipes."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description5_ph"
         }
       },
       {
-        "region": {
-          "content": {
-            "en": "Curitiba, Brazil",
-            "es": "Curitiba, Brazil",
-            "pt": "Curitiba, Brasil"
-          },
-          "placeholder": ""
-        },
-        "title": {
+        "subtitle": {
           "content": {
             "en": "Support Analyst",
             "es": "Analista de Soporte",
             "pt": "Analista de Suporte"
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-subtitle6_ph"
         },
         "description": {
           "content": {
@@ -344,7 +304,7 @@
               "Trabalhei diretamente com a equipe de desenvolvimento para implementar ações de suporte nas migrações de novos clientes, diminuindo o tempo de resposta de mais de 20 horas de trabalho para 4 horas."
             ]
           },
-          "placeholder": ""
+          "placeholder": "timeline-item-description6_ph"
         }
       }
     ]
@@ -357,7 +317,7 @@
         "es": "Estudios",
         "pt": "Estudos"
       },
-      "placeholder": ""
+      "placeholder": "section-title-edu_ph"
     },
     "items": [
       {
@@ -367,7 +327,7 @@
             "es": "Ingeniería Informática",
             "pt": "Engenharia da Computação"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-title1_ph"
         },
         "description": {
           "content": {
@@ -375,15 +335,15 @@
             "es": "Curso de posgrado en Ingeniería Informática, con enfoque en gestión de productos y tecnología emergente. Los temas más importantes del curso fueron Ingeniería de Software, Arquitectura de TI y Modelos de Negocio, Análisis y Viabilidad de Proyectos, Administración de Redes Informáticas y Ciberseguridad.",
             "pt": "Curso de pós-graduação em Engenharia da Computação, com foco em gestão de produtos e tecnologias emergentes. Os principais temas abordados no curso foram Engenharia de Software, Arquitetura de TI e Modelos de Negócios, Análise e Viabilidade de Projetos, Administração de Redes de Computadores e Segurança Cibernética."
           },
-          "placeholder": ""
+          "placeholder": "edu-card-desc1_ph"
         },
-        "degree": {
+        "detail": {
           "content": {
             "en": "Postgraduate's Degree",
             "es": "Posgrado",
             "pt": "Pós-graduação"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-titledet1_ph"
         }
       },
       {
@@ -393,7 +353,7 @@
             "es": "Gestión Estratégica de UX Design",
             "pt": "Gestão Estratégica de UX Design"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-title2_ph"
         },
         "description": {
           "content": {
@@ -401,15 +361,15 @@
             "es": "Curso de MBA con enfoque en Experiencia del Usuario, Gestión de Productos y Marketing Digital. Los temas principales del curso fueron: Experiencia del Usuario y Plataformas Digitales, Innovación y Design Thinking, Derecho Digital Aplicado, Toma de Decisiones e Intuición, y Diseño de Información, Interacción y Usabilidad.",
             "pt": "Curso de MBA com foco em Experiência do Usuário, Gestão de Produtos e Marketing Digital. Os temas principais do curso foram: Experiência do Usuário e Plataformas Digitais, Inovação e Design Thinking, Direito Digital Aplicado, Tomada de Decisão e Intuição, e Design de Informação, Interação e Usabilidade."
           },
-          "placeholder": ""
+          "placeholder": "edu-card-desc2_ph"
         },
-        "degree": {
+        "detail": {
           "content": {
             "en": "MBA Degree",
             "es": "MBA",
             "pt": "MBA"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-titledet2_ph"
         }
       },
       {
@@ -419,7 +379,7 @@
             "es": "Desarrollo de Software",
             "pt": "Análise e Desenvolvimento de Sistemas"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-title3_ph"
         },
         "description": {
           "content": {
@@ -427,15 +387,15 @@
             "es": "Curso de Análisis y Desarrollo de Software con duración de 2 años y medio. El curso trató de una base en tecnología, tratando los principales temas como: Desarrollo Frontend y Backend, Lógica de Programación, SQL y Bases de Datos.",
             "pt": "Curso tecnólogo de Análise e Desenvolvimento de Sistemas (2 anos e meio), com foco na base de tecnologia da informação, tratando diferentes temas, sendo os principais o Desenvolvimento Frontend e Backend, Lógica de Programação, SQL e Bases de Dados."
           },
-          "placeholder": ""
+          "placeholder": "edu-card-desc3_ph"
         },
-        "degree": {
+        "detail": {
           "content": {
             "en": "Associate's degree",
             "es": "Bachillerato Tecnológico",
             "pt": "Tecnológo"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-titledet3_ph"
         }
       },
       {
@@ -445,7 +405,7 @@
             "es": "Periodismo",
             "pt": "Jornalismo"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-title4_ph"
         },
         "description": {
           "content": {
@@ -453,15 +413,15 @@
             "es": "Curso de Periodismo y Comunicación Social, con experiencia practica creando, editando y publicando contenidos de comunicación. Durante mi tesis he publicado un libro de fotoperiodismo sobre la influencia de la cultura Inca en el Noreste Argentino, recibiendo el premio de mejor trabajo del año de formación.",
             "pt": "Curso de Jornalismo e Comunicação Social, trazendo experiência prática criando, editando e publicando conteúdos de comunicação. Como trabalho final do curso, produzi e publiquei um livro de fotojornalismo sobre a influência da cultura Inca no Noroeste Argentina, recebendo o prêmio de melhor produção no ano de formação."
           },
-          "placeholder": ""
+          "placeholder": "edu-card-desc4_ph"
         },
-        "degree": {
+        "detail": {
           "content": {
             "en": "Bachelor's degree",
             "es": "Bachillerato",
             "pt": "Bacharelado"
           },
-          "placeholder": ""
+          "placeholder": "edu-card-titledet4_ph"
         }
       }
     ]
@@ -474,7 +434,7 @@
         "es": "Habilidades",
         "pt": "Habilidades"
       },
-      "placeholder": ""
+      "placeholder": "section-title-skills_ph"
     },
     "items": [
       {
@@ -483,6 +443,10 @@
       },
       {
         "skill": "Python",
+        "level": 75
+      },
+      {
+        "skill": "Pandas",
         "level": 50
       },
       {
@@ -495,8 +459,7 @@
             "en": "Data Analysis",
             "es": "Análisis de Datos",
             "pt": "Análise de Dados"
-          },
-          "placeholder": ""
+          }
         },
         "level": 75
       },
@@ -537,10 +500,7 @@
         "level": 100
       }
     ],
-    "template": {
-      "item": "",
-      "container": ""
-    }
+    "itemsPlaceholder": "list-items_ph"
   },
   "Languages": {
     "sectionId": "languages",

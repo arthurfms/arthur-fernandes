@@ -39,6 +39,77 @@ window.addEventListener("load", () => {
     }
   }
 
+  const handleTimelineSection = (section, lang) => {
+    if ( section.title ) {
+      page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
+    }
+    if ( section.subtitle ) {
+      page.querySelector(`#${section.subtitle.placeholder}`).textContent = section.subtitle.content[lang] ? section.subtitle.content[lang] : section.subtitle.content;
+    }
+    if ( section.items ) {
+      section.items.forEach(item => {
+        if ( item.title ) {
+          page.querySelector(`#${item.title.placeholder}`).textContent = item.title.content[lang] ? item.title.content[lang] : item.title.content;
+        }
+        if ( item.subtitle ) {
+          page.querySelector(`#${item.subtitle.placeholder}`).textContent = item.subtitle.content[lang] ? item.subtitle.content[lang] : item.subtitle.content;
+        }
+        if ( item.description ) {
+          let cont = page.querySelector(`#${item.description.placeholder}`);
+          cont.innerHTML = "";
+          let descContent = item.description.content[lang] ? item.description.content[lang] : item.description.content;
+          descContent.forEach((par) => {
+            let tempPar = document.createElement("p");
+            tempPar.classList.add("timeline-item__description-item");
+            tempPar.textContent = par;
+            cont.append(tempPar);
+          });
+          
+        }
+      });
+    }
+  }
+
+  const handleCardListSection = (section, lang) => {
+    if ( section.title ) {
+      page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
+    }
+    if ( section.subtitle ) {
+      page.querySelector(`#${section.subtitle.placeholder}`).textContent = section.subtitle.content[lang] ? section.subtitle.content[lang] : section.subtitle.content;
+    }
+    if ( section.items ) {
+      section.items.forEach(item => {
+        if ( item.title ) {
+          page.querySelector(`#${item.title.placeholder}`).textContent = item.title.content[lang] ? item.title.content[lang] : item.title.content;
+        }
+        if ( item.subtitle ) {
+          page.querySelector(`#${item.subtitle.placeholder}`).textContent = item.subtitle.content[lang] ? item.subtitle.content[lang] : item.subtitle.content;
+        }
+        if ( item.detail ) {
+          page.querySelector(`#${item.detail.placeholder}`).textContent = item.detail.content[lang] ? item.detail.content[lang] : item.detail.content;
+        }
+        if ( item.description ) {
+          page.querySelector(`#${item.description.placeholder}`).textContent = item.description.content[lang] ? item.description.content[lang] : item.description.content;
+        }
+        if ( item.skill ) {
+          let itemsCont = document.querySelector(`#${section.itemsPlaceholder}`);
+          let newItem = document.createElement("div");
+          newItem.classList.add("list-item");
+          let skill = item.skill.content ? item.skill.content[lang] : item.skill;
+          let perc = item.level ? item.level : 100;
+
+          newItem.innerHTML = `
+            <p class="list-item__title">${skill}</p>
+            <span class="list-item__line">
+            <span class="list-item__line_perc" style="width: ${perc}%"></span>
+            </span>          
+          `;
+          itemsCont.append(newItem);
+        }
+      });
+    }
+  }
+
   const generatePage = (lang) => {
     page.classList.add("page_loading");
     sessionStorage.setItem("language", lang);
@@ -54,6 +125,9 @@ window.addEventListener("load", () => {
     // Handle items
     handleSection(data.menu, lang);
     handleSection(data.about, lang);
+    handleTimelineSection(data.work, lang);
+    handleCardListSection(data.education, lang);
+    handleCardListSection(data.skills, lang);
 
     
       page.classList.remove("page_loading");
