@@ -359,7 +359,8 @@
 /* SECTION */
 .section {
   width: 100%;
-  margin: 0 auto 40px;
+  margin: 0 auto;
+  padding-bottom: 40px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -474,7 +475,7 @@
 }
 /* EDUCATION */
 .section#education {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 /* CARDS */
 .cards {
@@ -680,7 +681,7 @@
 }
 /* CONTACT */
 .section#contact {
-  margin-top: 80px;
+  padding-top: 80px;
 }
 .contact-info {
   display: flex;
