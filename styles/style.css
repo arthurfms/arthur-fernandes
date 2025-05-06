@@ -177,7 +177,6 @@
 }
 .menu-item {
   display: flex;
-  transition: color 0.75s ease;
 }
 .menu-item__title {
   width: 100%;
@@ -868,7 +867,8 @@
   .menu-handler__line:hover {
     background-color: var(--theme-color);
   }
-  .menu-item:hover {
+  .menu-item:hover .menu-item__link i,
+  .menu-item:hover .menu-item__text {
     color: var(--theme-color);
   }
   .timeline-item:hover {
