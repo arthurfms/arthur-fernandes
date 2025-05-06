@@ -961,6 +961,9 @@
       .card:nth-of-type(3) {
         background: #45454533;
       }
+      .card.card_dark {
+        background: var(--theme-background-dark);
+      }
       .list-item {
         width: 100%;
       }

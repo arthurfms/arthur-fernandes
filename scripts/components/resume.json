@@ -717,7 +717,11 @@
         "placeholder": "form-title3_ph"
       },
       {
-        "content": { "en": "Send Message", "es": "E-mail:", "pt": "E-mail:" },
+        "content": {
+          "en": "Send Message",
+          "es": "Enviar Mensaje",
+          "pt": "Enviar Mensagem"
+        },
         "placeholder": "form-title4_ph"
       },
       {
