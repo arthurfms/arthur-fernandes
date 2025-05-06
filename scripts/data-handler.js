@@ -34,7 +34,18 @@ window.addEventListener("load", () => {
     }
     if ( section.items ) {
       section.items.forEach(item => {
-        page.querySelector(`#${item.placeholder}`).textContent = item.content[lang] ? item.content[lang] : item.content;
+        if (/^\d{4}-\d{2}-\d{2}$/.test(item.content)) {
+          const today = new Date();
+          const birthDate = new Date(item.content);
+          let age = today.getFullYear() - birthDate.getFullYear();
+          const m = today.getMonth() - birthDate.getMonth();
+          if (m < 0 || (m === 0 && today.getDate() < birthDate.getDate())) {
+            age--;
+          }
+          page.querySelector(`#${item.placeholder}`).textContent = age;
+        } else {
+          page.querySelector(`#${item.placeholder}`).textContent = item.content[lang] ? item.content[lang] : item.content;
+        }
       });
     }
   }
@@ -129,7 +140,6 @@ window.addEventListener("load", () => {
 
   const handleTwocolumns = (section, lang) => {
     if ( section.title ) {
-      console.log(section.title.placeholder);
       page.querySelector(`#${section.title.placeholder}`).textContent = section.title.content[lang] ? section.title.content[lang] : section.title.content;
     }
     if ( section.subtitle ) {

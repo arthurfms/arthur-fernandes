@@ -177,12 +177,7 @@
 }
 .menu-item {
   display: flex;
-  opacity: 1;
-}
-.menu-item_active {
-  color: var(--theme-color);
-  padding-left: 10px;
-  cursor: default;
+  transition: color 0.75s ease;
 }
 .menu-item__title {
   width: 100%;
@@ -872,8 +867,8 @@
   .menu-handler__line:hover {
     background-color: var(--theme-color);
   }
-  .menu-item:not(.menu-item_active):hover {
-    opacity: 0.8;
+  .menu-item:hover {
+    color: var(--theme-color);
   }
   .timeline-item:hover {
     border-image: linear-gradient(

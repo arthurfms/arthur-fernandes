@@ -623,6 +623,25 @@
         },
         "description": {
           "content": {
+            "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming.",
+            "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. ",
+            "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo."
+          }
+        },
+        "image": "./images/portfolio-template_2.png",
+        "skills": ["JavaScript", "CSS", "HTML"],
+        "link": "https://arthurfms.github.io/resume2/"
+      },
+      {
+        "title": {
+          "content": {
+            "en": "Resume Template Website",
+            "es": "Template de Website CV",
+            "pt": "Templade de Website CV"
+          }
+        },
+        "description": {
+          "content": {
             "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
             "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
             "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
