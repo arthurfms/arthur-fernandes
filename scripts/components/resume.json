@@ -653,5 +653,62 @@
       }
     ],
     "itemsPlaceholder": "projects-items_ph"
+  },
+  "contact": {
+    "sectionId": "contact",
+    "title": {
+      "content": {
+        "en": "Contact Me",
+        "es": "Contacto",
+        "pt": "Entre em Contato"
+      },
+      "placeholder": "section-title-contact_ph"
+    },
+    "items": [
+      {
+        "content": { "en": "Phone:", "es": "Tel:", "pt": "Tel:" },
+        "placeholder": "contact-title1_ph"
+      },
+      {
+        "content": "+55 11 97107-1806",
+        "placeholder": "contact-content1_ph"
+      },
+      {
+        "content": { "en": "Email:", "es": "E-mail:", "pt": "E-mail:" },
+        "placeholder": "contact-title2_ph"
+      },
+      {
+        "content": "a.fms@hotmail.com",
+        "placeholder": "contact-content2_ph"
+      },
+      {
+        "content": { "en": "Name", "es": "Nombre", "pt": "Nome" },
+        "placeholder": "form-title1_ph"
+      },
+      {
+        "content": { "en": "Email", "es": "E-mail", "pt": "E-mail" },
+        "placeholder": "form-title2_ph"
+      },
+      {
+        "content": {
+          "en": "Message",
+          "es": "Mensaje",
+          "pt": "Mensagem"
+        },
+        "placeholder": "form-title3_ph"
+      },
+      {
+        "content": { "en": "Send Message", "es": "E-mail:", "pt": "E-mail:" },
+        "placeholder": "form-title4_ph"
+      },
+      {
+        "content": {
+          "en": "Message Sent",
+          "es": "Mensaje Enviada",
+          "pt": "Mensagem Enviada"
+        },
+        "placeholder": "form-message1_ph"
+      }
+    ]
   }
 }

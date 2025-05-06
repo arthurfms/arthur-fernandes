@@ -93,6 +93,7 @@ window.addEventListener("load", () => {
         }
         if ( item.skill ) {
           let itemsCont = document.querySelector(`#${section.itemsPlaceholder}`);
+          itemsCont.innerHTML = index == 0 ? "": itemsCont.innerHTML;
           let newItem = document.createElement("div");
           newItem.classList.add("list-item");
           let skill = item.skill.content ? item.skill.content[lang] : item.skill;
@@ -150,11 +151,16 @@ window.addEventListener("load", () => {
         });
 
         newItem.innerHTML = `
+        <div class="two-columns__image-container">
           <img class="two-columns__image" src="${imgSrc}" alt="${itemTitle}" />
+          <span class="two-column__image-frame"></span>
+          <span class="two-column__image-frame"></span>
+          <span class="two-column__image-frame"></span>
+        </div>
           <div class="two-columns__right">
             <p class="two-columns__item-title">${itemTitle}</p>
-            <div class="two-columns__item-skills">${itemSkills}</div>
             <p class="two-columns__item-description">${item.description.content[lang] ? item.description.content[lang] : item.description.content}</p>
+            <div class="two-columns__item-skills">${itemSkills}</div>
           </div>     
          `;
          itemsCont.append(newItem);
@@ -183,6 +189,7 @@ window.addEventListener("load", () => {
     handleCardListSection(data.skills, lang);
     handleCardListSection(data.languages, lang);
     handleTwocolumns(data.projects, lang);
+    handleSection(data.contact, lang);
 
     
       page.classList.remove("page_loading");

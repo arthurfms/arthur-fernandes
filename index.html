@@ -317,7 +317,72 @@
         </div>
         <div class="two-columns" id="projects-items_ph"></div>
       </section>
+      <section class="section" id="contact">
+        <div class="section-header">
+          <h3 class="section-header__title" id="section-title-contact_ph"></h3>
+        </div>
+        <div class="two-columns two-columns_contact">
+          <div class="two-columns__container two-columns__container_small">
+            <div class="contact-info">
+              <div class="contact-item">
+                <p class="contact-item__title" id="contact-title1_ph"></p>
+                <p class="contact-item__content" id="contact-content1_ph"></p>
+              </div>
+              <div class="contact-item">
+                <p class="contact-item__title" id="contact-title2_ph"></p>
+                <p class="contact-item__content" id="contact-content2_ph"></p>
+              </div>
+            </div>
+            <div class="contact-links">
+              <a
+                href="https://www.linkedin.com/in/arthur-fms"
+                class="menu-item__link">
+                <i class="fa-brands fa-linkedin-in" aria-hidden="true"></i>
+              </a>
+              <a href="https://github.com/arthurfms" class="menu-item__link">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="#" class="menu-item__link">
+                <i class="fa-solid fa-circle-down"></i>
+              </a>
+            </div>
+          </div>
+          <div class="two-columns__container two-columns__container_main">
+            <form class="contact-form">
+              <div class="contact-form__input" id="name-input">
+                <label for="name" id="form-title1_ph"></label>
+                <input type="text" name="name" />
+                <p class="contact-form__error contact-form__error_hidden"></p>
+              </div>
+              <div class="contact-form__input" id="email-input">
+                <label for="email" id="form-title2_ph"></label>
+                <input type="email" name="email" />
+                <p class="contact-form__error contact-form__error_hidden"></p>
+              </div>
+              <div class="contact-form__input" id="message-input">
+                <label for="message" id="form-title3_ph"></label>
+                <textarea name="message"></textarea>
+                <p class="contact-form__error contact-form__error_hidden"></p>
+              </div>
+              <button
+                class="contact-form__button"
+                type="submit"
+                id="form-title4_ph"></button>
+              <p class="contact-form__popup" id="form-message1_ph"></p>
+              <iframe
+                id="form-iframe"
+                src="./documents/iframe-form.html"></iframe>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
+    <footer class="footer">
+      <p class="footer__copyright">
+        Copyright © <span class="footer__year"></span> Arthur Fernandes. All
+        rights reserved.
+      </p>
+    </footer>
   </body>
   <script type="module" src="./scripts/index.js"></script>
 </html>

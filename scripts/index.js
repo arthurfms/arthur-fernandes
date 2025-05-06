@@ -1,6 +1,11 @@
 import "./data-handler.js";
+import "./components/form.js";
 
 window.addEventListener("load", () => {
+  let today = new Date();
+  let yearContainer = document.querySelector(".footer__year");
+  yearContainer.textContent = today.getFullYear();
+
   let menu = document.querySelector(".menu");
   let menuHandler = document.querySelector(".menu-handler");
 
@@ -8,18 +13,4 @@ window.addEventListener("load", () => {
     menu.classList.toggle("menu_active");
     menuHandler.classList.toggle("menu-handler_active");
   });
-
-  /**
-   *
-   * Run section, identify templates, create elements, append elements.
-   * menu
-   * about
-   * work
-   * education
-   * skills
-   * languages
-   * projects
-   * contact
-   *
-   */
 });
