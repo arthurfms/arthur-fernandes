@@ -141,7 +141,8 @@ window.addEventListener("load", () => {
         itemsCont.innerHTML = index == 0 ? "": itemsCont.innerHTML;
         let newItem = document.createElement("a");
         newItem.classList.add("two-columns__item"),
-        newItem.href = item.link;
+        newItem.href = item.link,
+        newItem.setAttribute("target", "_blank");
         let imgSrc = item.image;
         let itemTitle = item.title.content[lang] ? item.title.content[lang] : item.title.content;
         let itemSkills = ``;

@@ -370,14 +370,18 @@
   justify-content: center;
 }
 /* SECTION HEADER */
-.section-header__title {
+.section-header {
   width: 90%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.section-header__title {
+  width: 250px;
   font-size: 1.5rem;
-  margin: 0 auto;
   text-transform: uppercase;
   font-weight: 300;
   text-align: left;
-  margin-right: auto;
   position: relative;
   display: flex;
   padding: 5px;
@@ -387,14 +391,14 @@
   content: "";
   display: block;
   background: var(--font-color);
-  width: 20%;
+  width: 100%;
   height: 1px;
   position: absolute;
   bottom: 0;
   left: 0;
 }
 .section-header__subtitle {
-  width: 90%;
+  width: 100%;
   margin: 15px auto;
   font-size: 1.125rem;
   line-height: 1.2;
