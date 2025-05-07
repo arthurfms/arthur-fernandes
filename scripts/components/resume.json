@@ -739,6 +739,14 @@
           "pt": "Mensagem Enviada"
         },
         "placeholder": "form-message1_ph"
+      },
+      {
+        "href": {
+          "en": "./documents/arthur-fernandes_EN.pdf",
+          "es": "./documents/arthur-fernandes_ES.pdf",
+          "pt": "./documents/arthur-fernandes_PT.pdf"
+        },
+        "placeholder": "contact-link-download_ph"
       }
     ]
   }
