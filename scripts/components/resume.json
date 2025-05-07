@@ -97,9 +97,9 @@
       },
       {
         "content": {
-          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCLTech (UberEats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
-          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCLTech (UberEats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
-          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCLTech (UberEats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
+          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCLTech (Uber Eats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
+          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCLTech (Uber Eats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
+          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCLTech (Uber Eats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
         },
         "placeholder": "header-description_ph"
       },
@@ -142,7 +142,7 @@
     "subtitle": {
       "content": {
         "en": "More than 5 years working into IT positions, having experience with Data Analysis, Data Manipulation, Customer Support and Software Development with international companies and multicultural teams.",
-        "es": "Más de 5 años trabajando en puestos de TI, experiente con Análisis de Datos, Manipulación de Datos, Soporte al Cliente y Desarrollo de Software, trabajando a empresas internacionales y equipos multiculturales.",
+        "es": "Más de 5 años trabajando en puestos de TI, con experiencia en Análisis de Datos, Manipulación de Datos, Soporte al Cliente y Desarrollo de Software, trabajando a empresas internacionales y equipos multiculturales.",
         "pt": "Mais de 5 anos de trabalhando em posições de TI, experiência com Análise de Dados, Manipulação de Dados, Suporte ao Cliente e Desenvolvimento de Software, em empresas internacionais e times multiculturais."
       },
       "placeholder": "section-subtitle-work_ph"
@@ -168,15 +168,15 @@
         "description": {
           "content": {
             "en": [
-              "Support UberEats clients' tech team to get a proper integration between their software and Uber's API. Manage developer's accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
-              "Perform data analysis and checking different reports to confirm the UberEats process for each client, to identify and work on different integration issues."
+              "Support Uber Eats clients' tech team to get a proper integration between their software and Uber's API. Manage developer's accounts, reviewing codes, fixing errors and making API tests to confirm that the whole process is properly working.",
+              "Perform data analysis and checking different reports to confirm the Uber Eats process for each client, to identify and work on different integration issues."
             ],
             "es": [
-              "Dar soporte al equipo tecnico de clientes de UberEats para que las integraciones entre su software y la API de uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
+              "Dar soporte al equipo técnico de clientes de Uber Eats para que las integraciones entre su software y la API de Uber estén correctamente hechas. Gestionar cuentas de desarrolladores, hacer revisión de código, resolver errores y hacer testes de las APIs para confirmar que todo el proceso esté funcionando.",
               "Hacer análisis de datos y verificar distintos reportes para confirmar las integraciones, identificando y trabajando en distintos tipos de errores."
             ],
             "pt": [
-              "Prestar suporte para equipes técnicas de clientes da UberEats, para que as integrações entre o software do cliente e a API do uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
+              "Prestar suporte para equipes técnicas de clientes da Uber Eats, para que as integrações entre o software do cliente e a API do Uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
               "Realizar análise de dados e verificar diferentes relatórios para confirmar as integraçãos, identificando e trabalhando em diferentes tipos de erros."
             ]
           },
@@ -200,7 +200,7 @@
             ],
             "es": [
               "Dar soporte de nivel tecnico a las integraciones de clientes de distintos países, identificando errores y enviando bugs para el equipo de ingeniería.",
-              "Trabajar activamente en las integraciones en problemas técnicos y garantizar que la solución de marketing the afiliados esté correctamente hecha."
+              "Trabajar activamente en las integraciones en problemas técnicos y garantizar que la solución de marketing de afiliados esté correctamente hecha."
             ],
             "pt": [
               "Dar suporte de nível técnico para integrações de clientes de diferentes países, identificando erros e escalando bugs para o time de engenharia.",
@@ -279,7 +279,7 @@
               "Improve data analysis for Marketing, lead generation and DP phone operations, update and maintenance workflows to optimize data collection. Generate dashboards and data insights for all related teams, focusing on new leads, keep and improve operation control, goals update and team commission standard."
             ],
             "es": [
-              "Hacer coleta de datos para optimizar la operación de marketing, generación de contactos y DP Phone, actualizar y mantener la flujos de datos para la correcta captación. Control y mantenimiento de operación, actualización de objetivos, KPI y pagos del equipo."
+              "Hacer coleta de datos para optimizar la operación de marketing, generación de contactos y DP Phone, actualizar y mantener los flujos de datos para la correcta captación. Control y mantenimiento de operación, actualización de objetivos, KPI y pagos del equipo."
             ],
             "pt": [
               "Coletar dados para otimizar operações de marketing e geração de leads, atualizar e manter workflows funcionando para correta captação de dados. Controle e manutenção da operação, atualização de metas e KPIs e comissionamento de equipes."
@@ -339,7 +339,7 @@
         },
         "description": {
           "content": {
-            "en": "Computer Engineering postgraduate course, focused on products management and emerging technologies.The main subjects of the course were Software Engineering, IT Architecture and Business Model, Projects Analysis and Viability, Computer Network Administration, and Cybersecurity.",
+            "en": "Computer Engineering postgraduate course, focused on products management and emerging technologies. The main subjects of the course were Software Engineering, IT Architecture and Business Model, Projects Analysis and Viability, Computer Network Administration, and Cybersecurity.",
             "es": "Curso de posgrado en Ingeniería Informática, con enfoque en gestión de productos y tecnología emergente. Los temas más importantes del curso fueron Ingeniería de Software, Arquitectura de TI y Modelos de Negocio, Análisis y Viabilidad de Proyectos, Administración de Redes Informáticas y Ciberseguridad.",
             "pt": "Curso de pós-graduação em Engenharia da Computação, com foco em gestão de produtos e tecnologias emergentes. Os principais temas abordados no curso foram Engenharia de Software, Arquitetura de TI e Modelos de Negócios, Análise e Viabilidade de Projetos, Administração de Redes de Computadores e Segurança Cibernética."
           },
@@ -613,7 +613,7 @@
         "description": {
           "content": {
             "en": "Browser extension created for daily use for ShareASale employees to help and improve job routine. This extension includes an iframe with different links and tools to be used (decoding URL, accessing client's accounts and navigating through company's software), it also includes a Web Scraping tool to display and download transactions from client's profile.",
-            "es": "Extensión de navegador creada para usu diaria de los empleados de ShareASale, para que les ayude en su rutina de trabajo. Esta extensión incluye iframes con distintos links y herramientas que pueden ser utilizadas (decoder de URL, acceder a cuentas de clientes y navegar entre distintos softwares de la empresa), también incluye una herramienta de Web Scraping que genera reportes y permite hacer download de todas las transaciones del perfil del cliente.",
+            "es": "Extensión de navegador creada para uso diario de los empleados de ShareASale, para que les ayude en su rutina de trabajo. Esta extensión incluye iframes con distintos links y herramientas que pueden ser utilizadas (decoder de URL, acceder a cuentas de clientes y navegar entre distintos softwares de la empresa), también incluye una herramienta de Web Scraping que genera reportes y permite dercargar todas las transacciones del perfil del cliente.",
             "pt": "Extensão de navegador criada para uso diário dos empregados da ShareASale em suas tarefas diárias. Esta extensão inclui iframes com diferentes links e ferramentas que podem ser utilizadas (decoder de URL, acessar contas de clientes e navegar entre os diferentes softwares da empresa), também inclui uma ferramenta de Web Scraping que gera relatórios e permite fazer download de todas as transações do perfil do cliente."
           }
         },
@@ -632,7 +632,7 @@
         "description": {
           "content": {
             "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming.",
-            "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. ",
+            "es": "Website creado cómo template de CV, usando JavaScript, HTML, CSS y frontend responsivo. ",
             "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo."
           }
         },
@@ -650,8 +650,8 @@
         },
         "description": {
           "content": {
-            "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, resumé PDF download and dark mode using JavaScript code.",
-            "es": "Website creado para template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
+            "en": "A resume template project using JavaScript, HTML, CSS and responsive frontend programming. This website includes translation version, PDF download and dark mode using JavaScript code.",
+            "es": "Website creado cómo template de CV, usando JavaScript, HTML, CSS y frontend responsivo. Este website incluye versiones de traducción, CV PDF download y modo oscuro con JavaScript.",
             "pt": "Webiste criado para template de CV, usando JavaScript, HTML, CSS e design frontend responsivo. Este website inclui versões de tradução, download do CV em PDF e modo escuro, usando JavaScript."
           }
         },
@@ -670,7 +670,7 @@
         "description": {
           "content": {
             "en": "A social media simulator, where the user can change name or job position, and add new image post. This website uses API to send and retrieve information from a server.",
-            "es": "Website que simula una red social, dónde el usuário puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
+            "es": "Website que simula una red social, dónde el usuario puede cambiar su nombre o puesto de trabajo, y agregar publicaciones de imágenes. Este website usa API para enviar y recibir información del servidor.",
             "pt": "Webiste que simula uma rede social, onde o usuário pode atualizar seu nome ou posto de trabalho, também é possível adicionar publicações de imagens. Este site utiliza API para enviar e receber informações do servidor."
           }
         },
