@@ -57,6 +57,14 @@
           "pt": "Contato"
         },
         "placeholder": "menu-item-contact_ph"
+      },
+      {
+        "href": {
+          "en": "./documents/arthur-fernandes_EN.pdf",
+          "es": "./documents/arthur-fernandes_ES.pdf",
+          "pt": "./documents/arthur-fernandes_PT.pdf"
+        },
+        "placeholder": "menu-link-download_ph"
       }
     ]
   },
@@ -89,9 +97,9 @@
       },
       {
         "content": {
-          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCTLTech (UberEats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
-          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCTLTech (UberEats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
-          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCTLTech (UberEats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
+          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer T3 at HCLTech (UberEats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
+          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCLTech (UberEats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
+          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCLTech (UberEats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
         },
         "placeholder": "header-description_ph"
       },

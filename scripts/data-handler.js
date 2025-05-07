@@ -43,6 +43,8 @@ window.addEventListener("load", () => {
             age--;
           }
           page.querySelector(`#${item.placeholder}`).textContent = age;
+        } else if (item.href) {
+          page.querySelector(`#${item.placeholder}`).href = item.href[lang] ? item.href[lang] : item.href;
         } else {
           page.querySelector(`#${item.placeholder}`).textContent = item.content[lang] ? item.content[lang] : item.content;
         }
