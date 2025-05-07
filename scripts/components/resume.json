@@ -177,7 +177,7 @@
             ],
             "pt": [
               "Prestar suporte para equipes técnicas de clientes da Uber Eats, para que as integrações entre o software do cliente e a API do Uber sejam realizadas corretamente. Gerenciar contas de desenvolvedores, revisar códigos, resolvendo erros e fazendo testes de APIs para confirmar que todo o processo esteja funcionando.",
-              "Realizar análise de dados e verificar diferentes relatórios para confirmar as integraçãos, identificando e trabalhando em diferentes tipos de erros."
+              "Realizar análise de dados e verificar diferentes relatórios para confirmar as integrações, identificando e trabalhando em diferentes tipos de erros."
             ]
           },
           "placeholder": "timeline-item-description1_ph"
