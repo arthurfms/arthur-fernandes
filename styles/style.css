@@ -817,6 +817,7 @@
   visibility: hidden;
   border-radius: 40px;
   font-size: 0rem;
+  z-index: 20000;
 }
 .contact-form__popup_sent {
   bottom: 20px;
@@ -850,6 +851,7 @@
   -webkit-box-shadow: -5px 0px 20px 0px rgba(0, 0, 0, 0.15);
   -moz-box-shadow: -5px 0px 20px 0px rgba(0, 0, 0, 0.15);
   box-shadow: -5px 0px 20px 0px rgba(0, 0, 0, 0.15);
+  z-index: 10;
 }
 .footer__copyright {
   line-height: 1.1;
