@@ -1,5 +1,5 @@
 <h2 align="center">
-  💻 Arthur Fernandes - Frontend Developer 💻
+  💻 Arthur Fernandes - Resume 💻
 </h2>
 
 <h4 align="center"><a href="https://arthurfms.github.io/arthur-fernandes/">Open Resume website</a></h4>
