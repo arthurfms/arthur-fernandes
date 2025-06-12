@@ -4,7 +4,7 @@
 
 <h4 align="center"><a href="https://arthurfms.github.io/arthur-fernandes/">Open Resume website</a></h4>
 <br>
-<p align="left"><i>Software Developer with MBA and postgraduate in Tech courses, working as a Global Integration Analyst at Awin. Experienced working with front-end development, APIs, data analysis, data manipulation and customer support (Tier 2).</i></p>
+<p align="left"><i>Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer L3 at HCLTech (Uber Eats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.</i></p>
 <br>
 <h3>Website Sections</h3>
 
