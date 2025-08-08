@@ -97,9 +97,9 @@
       },
       {
         "content": {
-          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Tech Support Engineer L3 at HCLTech (Uber Eats). Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
-          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte N3 en HCLTech (Uber Eats). Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
-          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte L3 na HCLTech (Uber Eats). Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
+          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Support Engineer at Clutch. Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
+          "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte en Clutch. Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
+          "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte na Clutch. Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
         },
         "placeholder": "header-description_ph"
       },
@@ -159,11 +159,40 @@
         },
         "subtitle": {
           "content": {
+            "en": "Support Engineer",
+            "es": "Ingeniero de Soporte",
+            "pt": "Engenheiro de Suporte"
+          },
+          "placeholder": "timeline-item-subtitle1_ph"
+        },
+        "description": {
+          "content": {
+            "en": [
+            ],
+            "es": [
+            ],
+            "pt": [
+            ]
+          },
+          "placeholder": "timeline-item-description1_ph"
+        }
+      },
+      {
+        "title": {
+          "content": {
+            "en": "Present",
+            "es": "Actualmente",
+            "pt": "Atualmente"
+          },
+          "placeholder": "timeline-item-title2_ph"
+        },
+        "subtitle": {
+          "content": {
             "en": "Tech Support Engineer L3",
             "es": "Ingeniero de Soporte N3",
             "pt": "Engenheiro de Suporte L3"
           },
-          "placeholder": "timeline-item-subtitle1_ph"
+          "placeholder": "timeline-item-subtitle2_ph"
         },
         "description": {
           "content": {
@@ -180,7 +209,7 @@
               "Realizar análise de dados e verificar diferentes relatórios para confirmar as integrações, identificando e trabalhando em diferentes tipos de erros."
             ]
           },
-          "placeholder": "timeline-item-description1_ph"
+          "placeholder": "timeline-item-description2_ph"
         }
       },
       {
@@ -190,7 +219,7 @@
             "es": "Analista de Integraciones Global",
             "pt": "Analista de Integrações Global"
           },
-          "placeholder": "timeline-item-subtitle2_ph"
+          "placeholder": "timeline-item-subtitle3_ph"
         },
         "description": {
           "content": {
@@ -207,7 +236,7 @@
               "Trabalhar nas integrações para resolver problemas técnicos e garantir que a solução de marketing de afiliados funcione corretamente."
             ]
           },
-          "placeholder": "timeline-item-description2_ph"
+          "placeholder": "timeline-item-description3_ph"
         }
       },
       {
@@ -217,7 +246,7 @@
             "es": "Desarrollador Frontend",
             "pt": "Desenvolvedor Frontend"
           },
-          "placeholder": "timeline-item-subtitle3_ph"
+          "placeholder": "timeline-item-subtitle4_ph"
         },
         "description": {
           "content": {
@@ -234,7 +263,7 @@
               "Manter o servidor, criar relatórios e encontrar soluções para as solicitações das equipes internas e clientes. Analisar incidentes, encontrar erros e trabalhar diretamente nas soluções, mantendo cada projeto funcionando da forma correta."
             ]
           },
-          "placeholder": "timeline-item-description3_ph"
+          "placeholder": "timeline-item-description4_ph"
         }
       },
       {
@@ -244,7 +273,7 @@
             "es": "Esp. de Implementación de datos",
             "pt": "Esp. de Implementação de dados"
           },
-          "placeholder": "timeline-item-subtitle4_ph"
+          "placeholder": "timeline-item-subtitle5_ph"
         },
         "description": {
           "content": {
@@ -261,7 +290,7 @@
               "Mantendo contato com equipes envolvidas nos procedimentos e realizando a manutenção de todo o processo para que tudo saia conforme os padrões da empresa e realizando o treinamento de novos membros da equipe."
             ]
           },
-          "placeholder": "timeline-item-description4_ph"
+          "placeholder": "timeline-item-description5_ph"
         }
       },
       {
@@ -271,7 +300,7 @@
             "es": "Analista de Datos",
             "pt": "Analista de Dados"
           },
-          "placeholder": "timeline-item-subtitle5_ph"
+          "placeholder": "timeline-item-subtitle6_ph"
         },
         "description": {
           "content": {
@@ -285,7 +314,7 @@
               "Coletar dados para otimizar operações de marketing e geração de leads, atualizar e manter workflows funcionando para correta captação de dados. Controle e manutenção da operação, atualização de metas e KPIs e comissionamento de equipes."
             ]
           },
-          "placeholder": "timeline-item-description5_ph"
+          "placeholder": "timeline-item-description6_ph"
         }
       },
       {
@@ -295,7 +324,7 @@
             "es": "Analista de Soporte",
             "pt": "Analista de Suporte"
           },
-          "placeholder": "timeline-item-subtitle6_ph"
+          "placeholder": "timeline-item-subtitle7_ph"
         },
         "description": {
           "content": {
@@ -312,7 +341,7 @@
               "Trabalhei diretamente com a equipe de desenvolvimento para implementar ações de suporte nas migrações de novos clientes, diminuindo o tempo de resposta de mais de 20 horas de trabalho para 4 horas."
             ]
           },
-          "placeholder": "timeline-item-description6_ph"
+          "placeholder": "timeline-item-description7_ph"
         }
       }
     ]
