@@ -178,14 +178,6 @@
         }
       },
       {
-        "title": {
-          "content": {
-            "en": "Present",
-            "es": "Actualmente",
-            "pt": "Atualmente"
-          },
-          "placeholder": "timeline-item-title2_ph"
-        },
         "subtitle": {
           "content": {
             "en": "Tech Support Engineer L3",
