@@ -1113,3 +1113,8 @@
     }
   }
 }
+/* TEMPORARY RULES */
+/* HIDE RESUME DOWNLOAD WHILE NOT UPDATED */
+.menu-item__link_hide {
+  display: none;
+}
