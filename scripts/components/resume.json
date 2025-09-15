@@ -97,7 +97,7 @@
       },
       {
         "content": {
-          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Support Engineer at Clutch. Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
+          "en": "Software Analyst with MBA and postgraduate in Tech courses, working as a Senior Support Engineer at Clutch. Experienced working with APIs, data analysis, data manipulation, software development and customer support.",
           "es": "Analista de Software con MBA y posgrado en cursos de tecnología, trabajando actualmente como Ingeniero de Soporte en Clutch. Experiencia trabajando con APIs, análisis de datos, manipulación de datos, desarrollo de software y soporte.",
           "pt": "Analista de Software com MBA e pós-graduação em cursos de tecnologia, trabalhando atualmente como Engenheiro de Suporte na Clutch. Experiência trabalhando com APIs, análise de dados, manipulação de dados, desenvolvimento de software e suporte."
         },
@@ -159,9 +159,9 @@
         },
         "subtitle": {
           "content": {
-            "en": "Support Engineer",
-            "es": "Ingeniero de Soporte",
-            "pt": "Engenheiro de Suporte"
+            "en": "Senior Support Engineer",
+            "es": "Ingeniero de Soporte Senior",
+            "pt": "Engenheiro de Suporte Senior"
           },
           "placeholder": "timeline-item-subtitle1_ph"
         },
