@@ -167,11 +167,17 @@
         },
         "description": {
           "content": {
-            "en": [""
+            "en": [
+              "Provide top-notch support for credit unions and their development team, work on feature implementation, use databases and advanced queries to troubleshoot different issues, and gain a deeper product knowledge and understanding.",
+              "Use different tools to get insights into the company's SaaS behavior, troubleshoot complex applications, and provide details about the system to partners. Develop and implement new tools and features to enhance the support engineering team's performance."
             ],
-            "es": [""
+            "es": [
+              "Presentar un soporte de calidad para credit unions y sus equipos de desarrollo de software, trabajar en nuevas implementaciones, usar la base de datos y hacer consultas avanzadas para trabajar en distintas cuestiones, y obtener un gran conocimiento y comprensión sobre los productos de la empresa.",
+              "Usar distintas herramientas para obtener informaciones sobre el SaaS de la empresa y entregar al cliente los detalles sobre el sistema. Desarrollar e implementar nuevas herramientas para incrementar la performance del equipo de ingeniería de soporte."
             ],
-            "pt": [""
+            "pt": [
+              "Entregar suporte de qualidade para credit unions e suas equipes de desenvolvimento, trabalhar em implementações de funções no sistema, usar banco de dados e consultas avançadas para trabalhar em diferentes questões e obter um grande conhecimento e entendimento dos produtos da empresa.",
+              "Usar diferentes ferramentas para obter informações sobre o comportamento do SaaS da empresa e entregar ao cliente detalhes sobre o sistema. Desenvolver e implementar novas ferramentas para elevar a performance do time de engenharia de suporte."
             ]
           },
           "placeholder": "timeline-item-description1_ph"
