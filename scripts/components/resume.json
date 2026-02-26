@@ -358,11 +358,37 @@
       {
         "title": {
           "content": {
+            "en": "Processes Quality, Management and Engineering",
+            "es": "Qualidade, Gestão e Engenharia de Processos",
+            "pt": "Calidad, Gestión e Ingeniería de Procesos"
+          },
+          "placeholder": "edu-card-title1_ph"
+        },
+        "description": {
+          "content": {
+            "en": "The MBA course at PUCRS University is focused on process quality and engineering. The course addresses themes like e-logistics, Lean Service, Metrics Performance (BI and KPI), Data Analysis, Six Sigma, and many related subjects.",
+            "es": "El curso de MBA de la universidad PUCRS enfoca en calidad e ingeniería de procesos. Trata de temas como e-logistics, Lean Service, Performance de Métricas (BI y KPI), Análisis de Datos, Six Sigma y otros asuntos relacionados.",
+            "pt": "O curso de MBA da PUCRS foca em qualidade e engenharia de processos. Temas como e-logistics, Lean Service, Performance de Métricas (BI e KPI), Análise de Dados, Six Sigma, além de outros itens relacionados são tratados durante o curso."
+          },
+          "placeholder": "edu-card-desc1_ph"
+        },
+        "detail": {
+          "content": {
+            "en": "MBA Degree",
+            "es": "MBA",
+            "pt": "MBA"
+          },
+          "placeholder": "edu-card-titledet1_ph"
+        }
+      },
+      {
+        "title": {
+          "content": {
             "en": "Computer Engineering",
             "es": "Ingeniería Informática",
             "pt": "Engenharia da Computação"
           },
-          "placeholder": "edu-card-title1_ph"
+          "placeholder": "edu-card-title2_ph"
         },
         "description": {
           "content": {
@@ -370,7 +396,7 @@
             "es": "Curso de posgrado en Ingeniería Informática, con enfoque en gestión de productos y tecnología emergente. Los temas más importantes del curso fueron Ingeniería de Software, Arquitectura de TI y Modelos de Negocio, Análisis y Viabilidad de Proyectos, Administración de Redes Informáticas y Ciberseguridad.",
             "pt": "Curso de pós-graduação em Engenharia da Computação, com foco em gestão de produtos e tecnologias emergentes. Os principais temas abordados no curso foram Engenharia de Software, Arquitetura de TI e Modelos de Negócios, Análise e Viabilidade de Projetos, Administração de Redes de Computadores e Segurança Cibernética."
           },
-          "placeholder": "edu-card-desc1_ph"
+          "placeholder": "edu-card-desc2_ph"
         },
         "detail": {
           "content": {
@@ -378,7 +404,7 @@
             "es": "Posgrado",
             "pt": "Pós-graduação"
           },
-          "placeholder": "edu-card-titledet1_ph"
+          "placeholder": "edu-card-titledet2_ph"
         }
       },
       {
@@ -388,7 +414,7 @@
             "es": "Gestión Estratégica de UX Design",
             "pt": "Gestão Estratégica de UX Design"
           },
-          "placeholder": "edu-card-title2_ph"
+          "placeholder": "edu-card-title3_ph"
         },
         "description": {
           "content": {
@@ -396,7 +422,7 @@
             "es": "Curso de MBA con enfoque en Experiencia del Usuario, Gestión de Productos y Marketing Digital. Los temas principales del curso fueron: Experiencia del Usuario y Plataformas Digitales, Innovación y Design Thinking, Derecho Digital Aplicado, Toma de Decisiones e Intuición, y Diseño de Información, Interacción y Usabilidad.",
             "pt": "Curso de MBA com foco em Experiência do Usuário, Gestão de Produtos e Marketing Digital. Os temas principais do curso foram: Experiência do Usuário e Plataformas Digitais, Inovação e Design Thinking, Direito Digital Aplicado, Tomada de Decisão e Intuição, e Design de Informação, Interação e Usabilidade."
           },
-          "placeholder": "edu-card-desc2_ph"
+          "placeholder": "edu-card-desc3_ph"
         },
         "detail": {
           "content": {
@@ -404,7 +430,7 @@
             "es": "MBA",
             "pt": "MBA"
           },
-          "placeholder": "edu-card-titledet2_ph"
+          "placeholder": "edu-card-titledet3_ph"
         }
       },
       {
@@ -414,7 +440,7 @@
             "es": "Desarrollo de Software",
             "pt": "Análise e Desenvolvimento de Sistemas"
           },
-          "placeholder": "edu-card-title3_ph"
+          "placeholder": "edu-card-title4_ph"
         },
         "description": {
           "content": {
@@ -422,7 +448,7 @@
             "es": "Curso de Análisis y Desarrollo de Software con duración de 2 años y medio. El curso trató de una base en tecnología, tratando los principales temas como: Desarrollo Frontend y Backend, Lógica de Programación, SQL y Bases de Datos.",
             "pt": "Curso tecnólogo de Análise e Desenvolvimento de Sistemas (2 anos e meio), com foco na base de tecnologia da informação, tratando diferentes temas, sendo os principais o Desenvolvimento Frontend e Backend, Lógica de Programação, SQL e Bases de Dados."
           },
-          "placeholder": "edu-card-desc3_ph"
+          "placeholder": "edu-card-desc4_ph"
         },
         "detail": {
           "content": {
@@ -430,7 +456,7 @@
             "es": "Bachillerato Tecnológico",
             "pt": "Tecnológo"
           },
-          "placeholder": "edu-card-titledet3_ph"
+          "placeholder": "edu-card-titledet4_ph"
         }
       },
       {
@@ -440,7 +466,7 @@
             "es": "Periodismo",
             "pt": "Jornalismo"
           },
-          "placeholder": "edu-card-title4_ph"
+          "placeholder": "edu-card-title5_ph"
         },
         "description": {
           "content": {
@@ -448,7 +474,7 @@
             "es": "Curso de Periodismo y Comunicación Social, con experiencia practica creando, editando y publicando contenidos de comunicación. Durante mi tesis he publicado un libro de fotoperiodismo sobre la influencia de la cultura Inca en el Noreste Argentino, recibiendo el premio de mejor trabajo del año de formación.",
             "pt": "Curso de Jornalismo e Comunicação Social, trazendo experiência prática criando, editando e publicando conteúdos de comunicação. Como trabalho final do curso, produzi e publiquei um livro de fotojornalismo sobre a influência da cultura Inca no Noroeste Argentina, recebendo o prêmio de melhor produção no ano de formação."
           },
-          "placeholder": "edu-card-desc4_ph"
+          "placeholder": "edu-card-desc5_ph"
         },
         "detail": {
           "content": {
@@ -456,7 +482,7 @@
             "es": "Bachillerato",
             "pt": "Bacharelado"
           },
-          "placeholder": "edu-card-titledet4_ph"
+          "placeholder": "edu-card-titledet5_ph"
         }
       }
     ]
