@@ -60,9 +60,9 @@
       },
       {
         "href": {
-          "en": "./documents/arthur-fernandes_EN.pdf",
-          "es": "./documents/arthur-fernandes_ES.pdf",
-          "pt": "./documents/arthur-fernandes_PT.pdf"
+          "en": "./documents/arthur-fernandes.pdf",
+          "es": "./documents/arthur-fernandes.pdf",
+          "pt": "./documents/arthur-fernandes.pdf"
         },
         "placeholder": "menu-link-download_ph"
       }
